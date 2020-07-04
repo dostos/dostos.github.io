@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Jingyu Lee</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Somnus</title>
+      <link>/project/somnus/</link>
+      <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/somnus/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s_STLf7uhak&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://games.digipen.edu/games/somnus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigiPen Game Gallary&lt;/a&gt;
+
+&lt;a href=&#34;http://somnusgame.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was my senior year project at DigiPen Institute of Technology with team BlackPen (Team of 4 programmers, 1 designer, 4 artists and 3 sound designers) developed in Unreal Engine 4.&lt;/p&gt;
+&lt;p&gt;In &lt;em&gt;Somnus&lt;/em&gt; you play Melanie, a young shutterbug who wakes up in the middle of the night to find her two favorite stuffed animals have ventured into a mysterious dreamscape in her wardrobe. As Melanie you must help your stuffed companions make their way through the world using your magical camera to solve unique perspective illusions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was nominated as a &lt;strong&gt;top 5 finalist at 2016 E3 College Game Competition&lt;/strong&gt; and invited as an exhibitor at 2016 E3.&lt;/p&gt;
+&lt;p&gt;As a technical director in the team, I was in charge of solving technical issues and worked closely with a producer to manage engineering resources of the team.&lt;/p&gt;
+&lt;p&gt;Accomplishments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented interactable objects with AI.&lt;/li&gt;
+&lt;li&gt;Implemented gameplay mechanic of the main character which utilizes the camera to solve the puzzle&lt;/li&gt;
+&lt;li&gt;Implemented 3D object projection tool for prototyping level design&lt;/li&gt;
+&lt;li&gt;Collaborated with artists to create materials, animations, and cut-scene&lt;/li&gt;
+&lt;li&gt;Added C++ based Blueprint helper functions for game data log system&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rigidbody Constraint-based Physics Simulation</title>
+      <link>/project/rigidbody-constraint-based-physics-simulation/</link>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/project/rigidbody-constraint-based-physics-simulation/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/S31Hpw_fuUE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This was my personal project that I implemented from scratch for CS550(Physics Simulation) class at DigiPen.&lt;/p&gt;
+&lt;p&gt;Accomplishments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GJK&lt;/a&gt; for convex collision checking&lt;/li&gt;
+&lt;li&gt;EPA for collision record generation&lt;/li&gt;
+&lt;li&gt;GJK Simplex visualization&lt;/li&gt;
+&lt;li&gt;EPA Polytope visualization&lt;/li&gt;
+&lt;li&gt;Constraints-based using Sequential Impulse solver, developed by Erin Catto&lt;/li&gt;
+&lt;li&gt;Contact caching&lt;/li&gt;
+&lt;li&gt;Warm starting&lt;/li&gt;
+&lt;li&gt;Baumgarte stabilization&lt;/li&gt;
+&lt;li&gt;Friction and restitution&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bomvoid</title>
+      <link>/project/bomvoid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/bomvoid/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/GKpjPXnuVLc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://lpk323.wixsite.com/bomvoid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bomvoid&lt;/em&gt; was my junior year project at DigiPen Institute of Technology with team of 6 programmers developed in C++ from scratch.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bomvoid&lt;/em&gt; is a 3D, third-person view puzzle game which a player encounters a number of challenges to reach the goal point with not losing all the flock. The player can overlook obstacles of current level with minimap and plan the way to go through, with abilities that are temporarily providing with getting items. Also, try number counting feature gives challenging experiences.&lt;/p&gt;
+&lt;p&gt;As a technical director in the team, I managed the technical progress of the team and designed the main game mechanic and levels.&lt;/p&gt;
+&lt;p&gt;Accomplishments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed component-based C++ engine from the scratch&lt;/li&gt;
+&lt;li&gt;Implemented in-game editor for platformer style map&lt;/li&gt;
+&lt;li&gt;Implemented puzzle system&lt;/li&gt;
+&lt;li&gt;Custom .ini based serialization tool for game&lt;/li&gt;
+&lt;li&gt;Designed entire game idea/ levels&lt;/li&gt;
+&lt;li&gt;Implemented main character with dynamic control of the particles&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Musika</title>
+      <link>/project/musika/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/musika/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://arcade.digipen.edu/games/musika-alpha-demo#.VyGaKzDhCUk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigiPen Game Gallary&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Musika&lt;/em&gt; was my sophomore year project at DigiPen Institute of Technology.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Musika&lt;/em&gt; is 2D platformer about some notes which have been kicked out of their place in the music sheet by some false notes and want to go back to their place.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

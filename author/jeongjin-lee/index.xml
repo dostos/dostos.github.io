@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeongjin Lee* | Jingyu Lee</title>
+    <link>/author/jeongjin-lee/</link>
+      <atom:link href="/author/jeongjin-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jeongjin Lee*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 02:34:30 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jeongjin Lee*</title>
+      <link>/author/jeongjin-lee/</link>
+    </image>
+    
+    <item>
+      <title>Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-supervised Contour Attention</title>
+      <link>/publication/chung_et_al_2020_aim/</link>
+      <pubDate>Sun, 05 Jul 2020 02:34:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_aim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
+      <link>/publication/chung_et_al_2020_tmi/</link>
+      <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_tmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</title>
+      <link>/publication/chung_et_al_2020_cmpb/</link>
+      <pubDate>Sat, 04 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_cmpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
+      <link>/publication/chung_et_al_2020_cbm/</link>
+      <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_cbm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
