@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Jingyu Lee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 02:34:30 +0900</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Jingyu Lee</title>
@@ -45,24 +45,6 @@
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Somnus</title>
       <link>/project/somnus/</link>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
@@ -78,7 +60,8 @@
 &lt;a href=&#34;http://somnusgame.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was my senior year project at DigiPen Institute of Technology with team BlackPen (Team of 4 programmers, 1 designer, 4 artists and 3 sound designers) developed in Unreal Engine 4.&lt;/p&gt;
 &lt;p&gt;In &lt;em&gt;Somnus&lt;/em&gt; you play Melanie, a young shutterbug who wakes up in the middle of the night to find her two favorite stuffed animals have ventured into a mysterious dreamscape in her wardrobe. As Melanie you must help your stuffed companions make their way through the world using your magical camera to solve unique perspective illusions.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was nominated as a &lt;strong&gt;top 5 finalist at 2016 E3 College Game Competition&lt;/strong&gt; and invited as an exhibitor at 2016 E3.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was nominated as a 
+&lt;a href=&#34;https://www.digipen.edu/showcase/news/whimsical-puzzle-game-somnus-heads-e3-college-game-competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;top 5 finalist at 2016 E3 College Game Competition&lt;/strong&gt;&lt;/a&gt; and invited as an exhibitor at E3.&lt;/p&gt;
 &lt;p&gt;As a technical director in the team, I was in charge of solving technical issues and worked closely with a producer to manage engineering resources of the team.&lt;/p&gt;
 &lt;p&gt;Accomplishments:&lt;/p&gt;
 &lt;ul&gt;
