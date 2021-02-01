@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Jingyu Lee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 02:34:30 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Jan 2021 02:34:30 +0900</lastBuildDate>
     <image>
       <url>/images/icon_hu20a37b21466d70e4150ba1a05ff3b9ac_83944_512x512_fill_lanczos_center_2.png</url>
       <title>Jingyu Lee</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-supervised Contour Attention</title>
       <link>/publication/chung_et_al_2020_aim/</link>
-      <pubDate>Sun, 05 Jul 2020 02:34:30 +0900</pubDate>
+      <pubDate>Sat, 23 Jan 2021 02:34:30 +0900</pubDate>
       <guid>/publication/chung_et_al_2020_aim/</guid>
       <description></description>
     </item>
