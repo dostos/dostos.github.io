@@ -5,7 +5,7 @@
     <link>/author/jeongjin-lee/</link>
       <atom:link href="/author/jeongjin-lee/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeongjin Lee*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Jan 2021 02:34:30 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Mar 2021 02:34:30 +0900</lastBuildDate>
     <image>
       <url>/images/icon_hu20a37b21466d70e4150ba1a05ff3b9ac_83944_512x512_fill_lanczos_center_2.png</url>
       <title>Jeongjin Lee*</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-supervised Contour Attention</title>
-      <link>/publication/chung_et_al_2020_aim/</link>
-      <pubDate>Sat, 23 Jan 2021 02:34:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_aim/</guid>
+      <title>Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention</title>
+      <link>/publication/chung_et_al_2021_aim/</link>
+      <pubDate>Fri, 05 Mar 2021 02:34:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2021_aim/</guid>
       <description></description>
     </item>
     

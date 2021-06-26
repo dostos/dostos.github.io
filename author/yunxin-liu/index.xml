@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yunxin Liu | Jingyu Lee</title>
+    <link>/author/yunxin-liu/</link>
+      <atom:link href="/author/yunxin-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yunxin Liu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Jun 2021 02:32:30 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_hu20a37b21466d70e4150ba1a05ff3b9ac_83944_512x512_fill_lanczos_center_2.png</url>
+      <title>Yunxin Liu</title>
+      <link>/author/yunxin-liu/</link>
+    </image>
+    
+    <item>
+      <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
+      <link>/publication/lee_et_al_2021_emdl/</link>
+      <pubDate>Fri, 25 Jun 2021 02:32:30 +0900</pubDate>
+      <guid>/publication/lee_et_al_2021_emdl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
