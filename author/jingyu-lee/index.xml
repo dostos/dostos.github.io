@@ -5,12 +5,20 @@
     <link>/author/jingyu-lee/</link>
       <atom:link href="/author/jingyu-lee/index.xml" rel="self" type="application/rss+xml" />
     <description>Jingyu Lee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Jun 2021 02:32:30 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Mar 2022 02:32:30 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu20a37b21466d70e4150ba1a05ff3b9ac_83944_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu20a37b21466d70e4150ba1a05ff3b9ac_83944_512x512_fill_lanczos_center_3.png</url>
       <title>Jingyu Lee</title>
       <link>/author/jingyu-lee/</link>
     </image>
+    
+    <item>
+      <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
+      <link>/publication/jeong_and_lee_et_al_2022_mobisys/</link>
+      <pubDate>Fri, 25 Mar 2022 02:32:30 +0900</pubDate>
+      <guid>/publication/jeong_and_lee_et_al_2022_mobisys/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
