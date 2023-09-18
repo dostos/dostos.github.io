@@ -7,56 +7,16 @@
     <description>Jingyu Lee</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Mar 2022 02:32:30 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu20a37b21466d70e4150ba1a05ff3b9ac_83944_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
       <title>Jingyu Lee</title>
       <link>/</link>
     </image>
     
     <item>
-      <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
-      <link>/publication/jeong_and_lee_et_al_2022_mobisys/</link>
-      <pubDate>Fri, 25 Mar 2022 02:32:30 +0900</pubDate>
-      <guid>/publication/jeong_and_lee_et_al_2022_mobisys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
-      <link>/publication/lee_et_al_2021_emdl/</link>
-      <pubDate>Fri, 25 Jun 2021 02:32:30 +0900</pubDate>
-      <guid>/publication/lee_et_al_2021_emdl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention</title>
-      <link>/publication/chung_et_al_2021_aim/</link>
-      <pubDate>Fri, 05 Mar 2021 02:34:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2021_aim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
-      <link>/publication/chung_et_al_2020_tmi/</link>
-      <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_tmi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</title>
-      <link>/publication/chung_et_al_2020_cmpb/</link>
-      <pubDate>Sat, 04 Jul 2020 02:32:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_cmpb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
-      <link>/publication/chung_et_al_2020_cbm/</link>
-      <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_cbm/</guid>
+      <title>Band</title>
+      <link>/project/band/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/band/</guid>
       <description></description>
     </item>
     
@@ -154,6 +114,54 @@
 &lt;p&gt;&lt;em&gt;Musika&lt;/em&gt; was my sophomore year project at DigiPen Institute of Technology.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Musika&lt;/em&gt; is 2D platformer about some notes which have been kicked out of their place in the music sheet by some false notes and want to go back to their place.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
+      <link>/publication/jeong_and_lee_et_al_2022_mobisys/</link>
+      <pubDate>Fri, 25 Mar 2022 02:32:30 +0900</pubDate>
+      <guid>/publication/jeong_and_lee_et_al_2022_mobisys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
+      <link>/publication/lee_et_al_2021_emdl/</link>
+      <pubDate>Fri, 25 Jun 2021 02:32:30 +0900</pubDate>
+      <guid>/publication/lee_et_al_2021_emdl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention</title>
+      <link>/publication/chung_et_al_2021_aim/</link>
+      <pubDate>Fri, 05 Mar 2021 02:34:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2021_aim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
+      <link>/publication/chung_et_al_2020_tmi/</link>
+      <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_tmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</title>
+      <link>/publication/chung_et_al_2020_cmpb/</link>
+      <pubDate>Sat, 04 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_cmpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
+      <link>/publication/chung_et_al_2020_cbm/</link>
+      <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
+      <guid>/publication/chung_et_al_2020_cbm/</guid>
+      <description></description>
     </item>
     
   </channel>
