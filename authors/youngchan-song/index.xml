@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Youngchan Song | Jingyu Lee</title>
+    <link>https://jingyulee.com/authors/youngchan-song/</link>
+      <atom:link href="https://jingyulee.com/authors/youngchan-song/index.xml" rel="self" type="application/rss+xml" />
+    <description>Youngchan Song</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 02:32:30 +0900</lastBuildDate>
+    <image>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <title>Youngchan Song</title>
+      <link>https://jingyulee.com/authors/youngchan-song/</link>
+    </image>
+    
+    <item>
+      <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_tmi/</link>
+      <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_tmi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

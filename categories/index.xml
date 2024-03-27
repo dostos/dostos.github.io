@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Jingyu Lee</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jingyulee.com/categories/</link>
+      <atom:link href="https://jingyulee.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Mar 2022 02:32:30 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Mar 2024 02:32:30 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://jingyulee.com/categories/</link>
     </image>
     
   </channel>

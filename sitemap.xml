@@ -2,133 +2,190 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/project/band/</loc>
+    <loc>https://jingyulee.com/project/band/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/project/somnus/</loc>
+    <loc>https://jingyulee.com/project/somnus/</loc>
     <lastmod>2016-04-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/project/rigidbody-constraint-based-physics-simulation/</loc>
+    <loc>https://jingyulee.com/project/rigidbody-constraint-based-physics-simulation/</loc>
     <lastmod>2016-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/project/bomvoid/</loc>
+    <loc>https://jingyulee.com/project/bomvoid/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/project/musika/</loc>
+    <loc>https://jingyulee.com/project/musika/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication-type/2/</loc>
+    <loc>https://jingyulee.com/publication-type/2/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/authors/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/authors/byung-gon-chun/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/categories/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/category/conference/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/authors/hyunsoo-kim/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/authors/admin/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/publication/lee_et_al_2024_mobisys/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/authors/minjae-kim/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/publication_types/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/publication/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/authors/youngki-lee/</loc>
+    <lastmod>2024-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jingyulee.com/publication/jeong_and_lee_et_al_2022_mobisys/</loc>
     <lastmod>2022-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>https://jingyulee.com/authors/changjin-jeong/</loc>
     <lastmod>2022-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication/jeong_and_lee_et_al_2022_mobisys/</loc>
+    <loc>https://jingyulee.com/authors/changmin-jeon/</loc>
     <lastmod>2022-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/byung-gon-chun/</loc>
+    <loc>https://jingyulee.com/authors/donghyun-kim/</loc>
     <lastmod>2022-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://jingyulee.com/authors/joo-seong-jeong/</loc>
     <lastmod>2022-03-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/changjin-jeong/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/author/changmin-jeon/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/category/conference/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/author/donghyun-kim/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/author/jingyu-lee/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/author/joo-seong-jeong/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/author/youngki-lee/</loc>
-    <lastmod>2022-03-25T02:32:30+09:00</lastmod>
-  </url><url>
-    <loc>/publication/lee_et_al_2021_emdl/</loc>
+    <loc>https://jingyulee.com/publication/lee_et_al_2021_emdl/</loc>
     <lastmod>2021-06-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/category/workshop/</loc>
+    <loc>https://jingyulee.com/category/workshop/</loc>
     <lastmod>2021-06-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/yunxin-liu/</loc>
+    <loc>https://jingyulee.com/authors/yunxin-liu/</loc>
     <lastmod>2021-06-25T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/category/international-journal/</loc>
+    <loc>https://jingyulee.com/category/international-journal/</loc>
     <lastmod>2021-03-05T02:34:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/jeongjin-lee/</loc>
+    <loc>https://jingyulee.com/authors/jeongjin-lee/</loc>
     <lastmod>2021-03-05T02:34:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication/chung_et_al_2021_aim/</loc>
+    <loc>https://jingyulee.com/publication/chung_et_al_2021_aim/</loc>
     <lastmod>2021-03-05T02:34:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/minyoung-chung/</loc>
+    <loc>https://jingyulee.com/authors/minyoung-chung/</loc>
     <lastmod>2021-03-05T02:34:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/yeong-gil-shin/</loc>
+    <loc>https://jingyulee.com/authors/yeong-gil-shin/</loc>
     <lastmod>2021-03-05T02:34:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication/chung_et_al_2020_tmi/</loc>
+    <loc>https://jingyulee.com/publication/chung_et_al_2020_tmi/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/il-hyung-yang/</loc>
+    <loc>https://jingyulee.com/authors/il-hyung-yang/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/wisoo-song/</loc>
+    <loc>https://jingyulee.com/authors/wisoo-song/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/youngchan-song/</loc>
+    <loc>https://jingyulee.com/authors/youngchan-song/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication/chung_et_al_2020_cmpb/</loc>
+    <loc>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/jioh-hong/</loc>
+    <loc>https://jingyulee.com/authors/jioh-hong/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/jusang-lee/</loc>
+    <loc>https://jingyulee.com/authors/jusang-lee/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/minkyung-lee/</loc>
+    <loc>https://jingyulee.com/authors/minkyung-lee/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication/chung_et_al_2020_cbm/</loc>
+    <loc>https://jingyulee.com/publication/chung_et_al_2020_cbm/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/author/sanguk-park/</loc>
+    <loc>https://jingyulee.com/authors/sanguk-park/</loc>
     <lastmod>2020-07-05T02:32:30+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/game/</loc>
+    <loc>https://jingyulee.com/tag/game/</loc>
     <lastmod>2016-04-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/project/</loc>
+    <loc>https://jingyulee.com/project/</loc>
     <lastmod>2016-04-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://jingyulee.com/tags/</loc>
     <lastmod>2016-04-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/demo/</loc>
+    <loc>https://jingyulee.com/tag/demo/</loc>
     <lastmod>2016-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/post/</loc>
+    <loc>https://jingyulee.com/post/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/talk/</loc>
+    <loc>https://jingyulee.com/talk/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/research/</loc>
+    <loc>https://jingyulee.com/tag/research/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

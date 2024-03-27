@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minkyung Lee | Jingyu Lee</title>
+    <link>https://jingyulee.com/authors/minkyung-lee/</link>
+      <atom:link href="https://jingyulee.com/authors/minkyung-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Minkyung Lee</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 02:32:30 +0900</lastBuildDate>
+    <image>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <title>Minkyung Lee</title>
+      <link>https://jingyulee.com/authors/minkyung-lee/</link>
+    </image>
+    
+    <item>
+      <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cbm/</link>
+      <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cbm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop | Jingyu Lee</title>
-    <link>/category/workshop/</link>
-      <atom:link href="/category/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jingyulee.com/category/workshop/</link>
+      <atom:link href="https://jingyulee.com/category/workshop/index.xml" rel="self" type="application/rss+xml" />
     <description>Workshop</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Jun 2021 02:32:30 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Jun 2021 02:32:30 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
       <title>Workshop</title>
-      <link>/category/workshop/</link>
+      <link>https://jingyulee.com/category/workshop/</link>
     </image>
     
     <item>
       <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
-      <link>/publication/lee_et_al_2021_emdl/</link>
+      <link>https://jingyulee.com/publication/lee_et_al_2021_emdl/</link>
       <pubDate>Fri, 25 Jun 2021 02:32:30 +0900</pubDate>
-      <guid>/publication/lee_et_al_2021_emdl/</guid>
+      <guid>https://jingyulee.com/publication/lee_et_al_2021_emdl/</guid>
       <description></description>
     </item>
     

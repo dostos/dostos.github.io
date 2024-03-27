@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo | Jingyu Lee</title>
-    <link>/tag/demo/</link>
-      <atom:link href="/tag/demo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jingyulee.com/tag/demo/</link>
+      <atom:link href="https://jingyulee.com/tag/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
-      <link>/tag/demo/</link>
+      <link>https://jingyulee.com/tag/demo/</link>
     </image>
     
     <item>
       <title>Rigidbody Constraint-based Physics Simulation</title>
-      <link>/project/rigidbody-constraint-based-physics-simulation/</link>
+      <link>https://jingyulee.com/project/rigidbody-constraint-based-physics-simulation/</link>
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/project/rigidbody-constraint-based-physics-simulation/</guid>
+      <guid>https://jingyulee.com/project/rigidbody-constraint-based-physics-simulation/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/S31Hpw_fuUE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -25,8 +25,7 @@
 &lt;p&gt;This was my personal project that I implemented from scratch for CS550(Physics Simulation) class at DigiPen.&lt;/p&gt;
 &lt;p&gt;Accomplishments:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GJK&lt;/a&gt; for convex collision checking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GJK&lt;/a&gt; for convex collision checking&lt;/li&gt;
 &lt;li&gt;EPA for collision record generation&lt;/li&gt;
 &lt;li&gt;GJK Simplex visualization&lt;/li&gt;
 &lt;li&gt;EPA Polytope visualization&lt;/li&gt;

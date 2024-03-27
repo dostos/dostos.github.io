@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jingyu Lee</title>
+    <link>https://jingyulee.com/authors/admin/</link>
+      <atom:link href="https://jingyulee.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jingyu Lee</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Mar 2024 02:32:30 +0900</lastBuildDate>
+    <image>
+      <url>https://jingyulee.com/authors/admin/avatar_hu882d529c0e6ae2513eb72eed44694a60_307314_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Jingyu Lee</title>
+      <link>https://jingyulee.com/authors/admin/</link>
+    </image>
+    
+    <item>
+      <title>Jingyu Lee</title>
+      <link>https://jingyulee.com/authors/admin/</link>
+      <pubDate>Mon, 25 Mar 2024 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/authors/admin/</guid>
+      <description>&lt;p&gt;Hi! I&amp;rsquo;m a Ph.D. student at the &lt;a href=&#34;https://hcs.snu.ac.kr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Human-Centered Computer Systems Lab&lt;/a&gt; under the supervision of professor &lt;a href=&#34;https://youngkilee.blogspot.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youngki Lee&lt;/a&gt;.
+I build a &lt;a href=&#34;https://band.snu.ac.kr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;software platform&lt;/a&gt; for edge devices that enable real-time mixed reality applications for everyone.&lt;/p&gt;
+&lt;p&gt;I have previous research experiences in medical image processing and deep learning from my masters at &lt;a href=&#34;https://chungmy.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Learning and Image Processing Group&lt;/a&gt; in &lt;a href=&#34;http://cglab.snu.ac.kr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computer Graphics and Image Processing Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I was an enthusiastic game engine developer graduated from DigiPen Institute of Technology and worked for &lt;a href=&#34;https://education.minecraft.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Minecraft: Education Edition&lt;/a&gt; at Microsoft Studios.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality</title>
+      <link>https://jingyulee.com/publication/lee_et_al_2024_mobisys/</link>
+      <pubDate>Mon, 25 Mar 2024 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/lee_et_al_2024_mobisys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
+      <link>https://jingyulee.com/publication/jeong_and_lee_et_al_2022_mobisys/</link>
+      <pubDate>Fri, 25 Mar 2022 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/jeong_and_lee_et_al_2022_mobisys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
+      <link>https://jingyulee.com/publication/lee_et_al_2021_emdl/</link>
+      <pubDate>Fri, 25 Jun 2021 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/lee_et_al_2021_emdl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2021_aim/</link>
+      <pubDate>Fri, 05 Mar 2021 02:34:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2021_aim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_tmi/</link>
+      <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_tmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</link>
+      <pubDate>Sat, 04 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cbm/</link>
+      <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cbm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

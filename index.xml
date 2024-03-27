@@ -2,42 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jingyu Lee</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jingyulee.com/</link>
+      <atom:link href="https://jingyulee.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Jingyu Lee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Mar 2022 02:32:30 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
       <title>Jingyu Lee</title>
-      <link>/</link>
+      <link>https://jingyulee.com/</link>
     </image>
     
     <item>
       <title>Band</title>
-      <link>/project/band/</link>
+      <link>https://jingyulee.com/project/band/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/band/</guid>
+      <guid>https://jingyulee.com/project/band/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Somnus</title>
-      <link>/project/somnus/</link>
+      <link>https://jingyulee.com/project/somnus/</link>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/somnus/</guid>
+      <guid>https://jingyulee.com/project/somnus/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/s_STLf7uhak&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;
-&lt;a href=&#34;https://games.digipen.edu/games/somnus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigiPen Game Gallary&lt;/a&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://games.digipen.edu/games/somnus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigiPen Game Gallary&lt;/a&gt;
 &lt;a href=&#34;http://somnusgame.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was my senior year project at DigiPen Institute of Technology with team BlackPen (Team of 4 programmers, 1 designer, 4 artists and 3 sound designers) developed in Unreal Engine 4.&lt;/p&gt;
 &lt;p&gt;In &lt;em&gt;Somnus&lt;/em&gt; you play Melanie, a young shutterbug who wakes up in the middle of the night to find her two favorite stuffed animals have ventured into a mysterious dreamscape in her wardrobe. As Melanie you must help your stuffed companions make their way through the world using your magical camera to solve unique perspective illusions.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was nominated as a 
-&lt;a href=&#34;https://www.digipen.edu/showcase/news/whimsical-puzzle-game-somnus-heads-e3-college-game-competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;top 5 finalist at 2016 E3 College Game Competition&lt;/strong&gt;&lt;/a&gt; and invited as an exhibitor at E3.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Somnus&lt;/em&gt; was nominated as a &lt;a href=&#34;https://www.digipen.edu/showcase/news/whimsical-puzzle-game-somnus-heads-e3-college-game-competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;top 5 finalist at 2016 E3 College Game Competition&lt;/strong&gt;&lt;/a&gt; and invited as an exhibitor at E3.&lt;/p&gt;
 &lt;p&gt;As a technical director in the team, I was in charge of solving technical issues and worked closely with a producer to manage engineering resources of the team.&lt;/p&gt;
 &lt;p&gt;Accomplishments:&lt;/p&gt;
 &lt;ul&gt;
@@ -52,9 +49,9 @@
     
     <item>
       <title>Rigidbody Constraint-based Physics Simulation</title>
-      <link>/project/rigidbody-constraint-based-physics-simulation/</link>
+      <link>https://jingyulee.com/project/rigidbody-constraint-based-physics-simulation/</link>
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/project/rigidbody-constraint-based-physics-simulation/</guid>
+      <guid>https://jingyulee.com/project/rigidbody-constraint-based-physics-simulation/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/S31Hpw_fuUE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -63,8 +60,7 @@
 &lt;p&gt;This was my personal project that I implemented from scratch for CS550(Physics Simulation) class at DigiPen.&lt;/p&gt;
 &lt;p&gt;Accomplishments:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GJK&lt;/a&gt; for convex collision checking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GJK&lt;/a&gt; for convex collision checking&lt;/li&gt;
 &lt;li&gt;EPA for collision record generation&lt;/li&gt;
 &lt;li&gt;GJK Simplex visualization&lt;/li&gt;
 &lt;li&gt;EPA Polytope visualization&lt;/li&gt;
@@ -79,16 +75,15 @@
     
     <item>
       <title>Bomvoid</title>
-      <link>/project/bomvoid/</link>
+      <link>https://jingyulee.com/project/bomvoid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/bomvoid/</guid>
+      <guid>https://jingyulee.com/project/bomvoid/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/GKpjPXnuVLc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;
-&lt;a href=&#34;https://lpk323.wixsite.com/bomvoid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lpk323.wixsite.com/bomvoid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Bomvoid&lt;/em&gt; was my junior year project at DigiPen Institute of Technology with team of 6 programmers developed in C++ from scratch.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Bomvoid&lt;/em&gt; is a 3D, third-person view puzzle game which a player encounters a number of challenges to reach the goal point with not losing all the flock. The player can overlook obstacles of current level with minimap and plan the way to go through, with abilities that are temporarily providing with getting items. Also, try number counting feature gives challenging experiences.&lt;/p&gt;
 &lt;p&gt;As a technical director in the team, I managed the technical progress of the team and designed the main game mechanic and levels.&lt;/p&gt;
@@ -106,61 +101,68 @@
     
     <item>
       <title>Musika</title>
-      <link>/project/musika/</link>
+      <link>https://jingyulee.com/project/musika/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/musika/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://arcade.digipen.edu/games/musika-alpha-demo#.VyGaKzDhCUk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigiPen Game Gallary&lt;/a&gt;&lt;/p&gt;
+      <guid>https://jingyulee.com/project/musika/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://arcade.digipen.edu/games/musika-alpha-demo#.VyGaKzDhCUk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigiPen Game Gallary&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Musika&lt;/em&gt; was my sophomore year project at DigiPen Institute of Technology.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Musika&lt;/em&gt; is 2D platformer about some notes which have been kicked out of their place in the music sheet by some false notes and want to go back to their place.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality</title>
+      <link>https://jingyulee.com/publication/lee_et_al_2024_mobisys/</link>
+      <pubDate>Mon, 25 Mar 2024 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/lee_et_al_2024_mobisys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
-      <link>/publication/jeong_and_lee_et_al_2022_mobisys/</link>
+      <link>https://jingyulee.com/publication/jeong_and_lee_et_al_2022_mobisys/</link>
       <pubDate>Fri, 25 Mar 2022 02:32:30 +0900</pubDate>
-      <guid>/publication/jeong_and_lee_et_al_2022_mobisys/</guid>
+      <guid>https://jingyulee.com/publication/jeong_and_lee_et_al_2022_mobisys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</title>
-      <link>/publication/lee_et_al_2021_emdl/</link>
+      <link>https://jingyulee.com/publication/lee_et_al_2021_emdl/</link>
       <pubDate>Fri, 25 Jun 2021 02:32:30 +0900</pubDate>
-      <guid>/publication/lee_et_al_2021_emdl/</guid>
+      <guid>https://jingyulee.com/publication/lee_et_al_2021_emdl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention</title>
-      <link>/publication/chung_et_al_2021_aim/</link>
+      <link>https://jingyulee.com/publication/chung_et_al_2021_aim/</link>
       <pubDate>Fri, 05 Mar 2021 02:34:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2021_aim/</guid>
+      <guid>https://jingyulee.com/publication/chung_et_al_2021_aim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
-      <link>/publication/chung_et_al_2020_tmi/</link>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_tmi/</link>
       <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_tmi/</guid>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_tmi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</title>
-      <link>/publication/chung_et_al_2020_cmpb/</link>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</link>
       <pubDate>Sat, 04 Jul 2020 02:32:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_cmpb/</guid>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
-      <link>/publication/chung_et_al_2020_cbm/</link>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cbm/</link>
       <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
-      <guid>/publication/chung_et_al_2020_cbm/</guid>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cbm/</guid>
       <description></description>
     </item>
     
