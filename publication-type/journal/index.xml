@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal | Jingyu Lee</title>
+    <link>https://jingyulee.com/publication-type/journal/</link>
+      <atom:link href="https://jingyulee.com/publication-type/journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Mar 2021 02:34:30 +0900</lastBuildDate>
+    <image>
+      <url>https://jingyulee.com/media/icon_hu46d3faa4728e5ccb71e615a91463bc62_315694_512x512_fill_lanczos_center_3.png</url>
+      <title>Journal</title>
+      <link>https://jingyulee.com/publication-type/journal/</link>
+    </image>
+    
+    <item>
+      <title>Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2021_aim/</link>
+      <pubDate>Fri, 05 Mar 2021 02:34:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2021_aim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Registration between Dental Cone-Beam CT and Scanned Surface via Deep-Pose Regression Neural Networks and Clustered Similarities</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_tmi/</link>
+      <pubDate>Sun, 05 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_tmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</link>
+      <pubDate>Sat, 04 Jul 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cmpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</title>
+      <link>https://jingyulee.com/publication/chung_et_al_2020_cbm/</link>
+      <pubDate>Fri, 01 May 2020 02:32:30 +0900</pubDate>
+      <guid>https://jingyulee.com/publication/chung_et_al_2020_cbm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
