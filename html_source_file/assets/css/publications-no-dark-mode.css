@@ -73,3 +73,18 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 420px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-bg-color: #363062;
+    --global-code-bg-color: rgba(54, 48, 98, 0.05);
+    --global-text-color: #F5E8C7;
+    --global-text-color-light: #818FB4;
+    --global-theme-color: #435585;
+    --global-hover-color: rgb(245, 232, 245);
+    --global-footer-bg-color: rgb(67, 85, 133);
+    --global-footer-text-color: rgb(129, 143, 180);
+    --global-footer-link-color: rgb(245, 232, 199);
+    --global-distill-app-color: #818FB4;
+  }
+}

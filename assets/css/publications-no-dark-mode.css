@@ -20,7 +20,13 @@
 
 :root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
 
-blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
+blockquote {
+    background: var(--global-bg-color);
+    border-left: 2px solid var(--global-theme-color);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-size: 1.2rem;
+}
 
 @media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
 
@@ -73,3 +79,18 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 420px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-bg-color: #363062;
+    --global-code-bg-color: rgba(54, 48, 98, 0.05);
+    --global-text-color: #F5E8C7;
+    --global-text-color-light: #818FB4;
+    --global-theme-color: #435585;
+    --global-hover-color: rgb(245, 232, 245);
+    --global-footer-bg-color: rgb(67, 85, 133);
+    --global-footer-text-color: rgb(129, 143, 180);
+    --global-footer-link-color: rgb(245, 232, 199);
+    --global-distill-app-color: #818FB4;
+  }
+}

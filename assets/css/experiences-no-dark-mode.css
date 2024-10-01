@@ -12,28 +12,37 @@
 }
 
 .badge {
-  color: #fff !important;
+  color: #FFF5CD !important;
   border-radius: 0.125rem;
   -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
 :root {
-  --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
-  --global-text-color: #000000;
-  --global-text-color-light: #828282;
-  --global-theme-color: #002D72;
-  --global-hover-color: #ffb81c;
-  --global-footer-bg-color: #1c1c1c;
-  --global-footer-text-color: #e8e8e8;
+  --global-bg-color: #B7E0FF;
+  --global-code-bg-color: rgba(183, 224, 255, 0.05);
+  --global-text-color: #FFF5CD;
+  --global-text-color-light: #FFCFB3;
+  --global-theme-color: #E78F81;
+  --global-hover-color: rgb(183, 224, 255);
+  --global-footer-bg-color: rgb(255, 245, 205);
+  --global-footer-text-color: rgb(255, 207, 
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --global-theme-color: rgb(36, 150, 203);
+    --global-bg-color: #363062;
+    --global-code-bg-color: rgba(54, 48, 98, 0.05);
+    --global-text-color: #F5E8C7;
+    --global-text-color-light: #818FB4;
+    --global-theme-color: #435585;
+    --global-hover-color: rgb(245, 232, 245);
+    --global-footer-bg-color: rgb(67, 85, 133);
+    --global-footer-text-color: rgb(129, 143, 180);
+    --global-footer-link-color: rgb(245, 232, 199);
+    --global-distill-app-color: #818FB4;
   }
 }
 

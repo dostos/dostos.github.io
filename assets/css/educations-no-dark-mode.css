@@ -32,6 +32,19 @@
   }
   
   @media (prefers-color-scheme: dark) {
+    :root {
+      --global-bg-color: #363062;
+      --global-code-bg-color: rgba(54, 48, 98, 0.05);
+      --global-text-color: #F5E8C7;
+      --global-text-color-light: #818FB4;
+      --global-theme-color: #435585;
+      --global-hover-color: rgb(245, 232, 245);
+      --global-footer-bg-color: rgb(67, 85, 133);
+      --global-footer-text-color: rgb(129, 143, 180);
+      --global-footer-link-color: rgb(245, 232, 199);
+      --global-distill-app-color: #818FB4;
+    }
+  
     .educations h2 {
       color: rgb(36, 150, 203);
     }
@@ -40,4 +53,3 @@
       color: rgb(36, 150, 203);
     }
   }
-  
