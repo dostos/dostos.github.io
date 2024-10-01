@@ -40,7 +40,7 @@ conference:
 
 journal:
   - title: "Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-Supervised Contour Attention"
-    authors: Chung, Minyoung, <strong>Jingyu Lee</strong>, Sanguk Park, Chae Eun Lee, Jeongjin Lee, and Yeong-Gil Shin
+    authors: Minyoung Chung, <strong>Jingyu Lee</strong>, Sanguk Park, Chae Eun Lee, Jeongjin Lee, and Yeong-Gil Shin
     conference_short: AIM
     conference: Artificial Intelligence in Medicine, 2021.
     pdf: https://arxiv.org/pdf/2002.05895.pdf
@@ -48,7 +48,7 @@ journal:
     image: ./assets/img/aim21.png
     bibtex: "@article{chung2021liver,
   title={Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention},
-  author={Chung, Minyoung and Lee, Jingyu and Park, Sanguk and Lee, Chae Eun and Lee, Jeongjin and Shin, Yeong-Gil},
+  author={Minyoung Chung and Lee, Jingyu and Park, Sanguk and Lee, Chae Eun and Lee, Jeongjin and Shin, Yeong-Gil},
   journal={Artificial Intelligence in Medicine},
   volume={113},
   pages={102023},
@@ -57,7 +57,7 @@ journal:
 }"
 
   - title: "Automatic Registration Between Dental Cone-Beam CT and Scanned Surface via Deep Pose Regression Neural Networks and Clustered Similarities"
-    authors: Chung, Minyoung, <strong>Jingyu Lee</strong>, Wisoo Song, Youngchan Song, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
+    authors: Minyoung Chung, <strong>Jingyu Lee</strong>, Wisoo Song, Youngchan Song, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
     conference_short: TMI
     conference: IEEE Transactions on Medical Imaging, 2020.
     pdf: https://arxiv.org/pdf/1907.12250.pdf
@@ -65,7 +65,7 @@ journal:
     image: ./assets/img/tmi20.png
     bibtex: "@article{chung2020automatic,
   title={Automatic registration between dental cone-beam CT and scanned surface via deep pose regression neural networks and clustered similarities},
-  author={Chung, Minyoung and Lee, Jingyu and Song, Wisoo and Song, Youngchan and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil},
+  author={Minyoung Chung and Lee, Jingyu and Song, Wisoo and Song, Youngchan and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil},
   journal={IEEE Transactions on Medical Imaging},
   volume={39},
   number={12},
@@ -75,7 +75,7 @@ journal:
 }"
 
   - title: "Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation"
-    authors: Chung, Minyoung, <strong>Jingyu Lee</strong>, Minkyung Lee, Jeongjin Lee, and Yeong-Gil Shin
+    authors: Minyoung Chung, <strong>Jingyu Lee</strong>, Minkyung Lee, Jeongjin Lee, and Yeong-Gil Shin
     conference_short: CMPB
     conference: Computer Methods and Programs in Biomedicine, 2020.
     pdf: https://arxiv.org/pdf/1808.00739.pdf
@@ -83,7 +83,7 @@ journal:
     image: ./assets/img/cmpb20.png
     bibtex: "@article{chung2020deeply,
   title={Deeply self-supervised contour embedded neural network applied to liver segmentation},
-  author={Chung, Minyoung and Lee, Jingyu and Lee, Minkyung and Lee, Jeongjin and Shin, Yeong-Gil},
+  author={Minyoung Chung and Lee, Jingyu and Lee, Minkyung and Lee, Jeongjin and Shin, Yeong-Gil},
   journal={Computer methods and programs in biomedicine},
   volume={192},
   pages={105447},
@@ -92,7 +92,7 @@ journal:
 }"
 
   - title: "Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation"
-    authors: Chung, Minyoung, Minkyung Lee, Jioh Hong, Sanguk Park, Jusang Lee, <strong>Jingyu Lee</strong>, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
+    authors: Minyoung Chung, Minkyung Lee, Jioh Hong, Sanguk Park, Jusang Lee, <strong>Jingyu Lee</strong>, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
     conference_short: CBM
     conference: Computers in Biology and Medicine, 2020.
     pdf: https://arxiv.org/pdf/2002.02143.pdf
@@ -100,7 +100,7 @@ journal:
     image: ./assets/img/cbm20.png
     bibtex: "@article{chung2020pose,
   title={Pose-aware instance segmentation framework from cone beam CT images for tooth segmentation},
-  author={Chung, Minyoung and Lee, Minkyung and Hong, Jioh and Park, Sanguk and Lee, Jusang and Lee, Jingyu and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil},
+  author={Minyoung Chung and Lee, Minkyung and Hong, Jioh and Park, Sanguk and Lee, Jusang and Lee, Jingyu and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil},
   journal={Computers in Biology and Medicine},
   volume={120},
   pages={103720},

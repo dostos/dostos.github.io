@@ -5,7 +5,7 @@
 {% for edu in site.data.educations %}
 
 <li>
-    <div class="pub-row">
+    <div class="pub-row" style="margin-bottom: -1rem;">
         <div class="col-sm-9" style="position: relative;">
             <div class="title"><strong>{{ edu.degree }}</strong>, {{ edu.year }}</div>
             <div class="institution"><em>{{ edu.institution }}, {{ edu.location }}</em></div>

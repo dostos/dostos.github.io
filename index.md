@@ -9,15 +9,8 @@ I build a [software platform](https://band.snu.ac.kr) for edge devices that enab
 
 I have previous research experiences in medical image processing and deep learning during my masters. I was an enthusiastic game engine developer graduated from DigiPen Institute of Technology and worked for [Minecraft: Education Edition](https://education.minecraft.net) at Microsoft Studios.
 
-<div class="row">
-  <div class="col-sm-6">
-    {% include_relative _includes/educations.md %}
-  </div>
-  <div class="col-sm-6">
-    {% include_relative _includes/experiences.md %}
-  </div>
-</div>
-
+{% include_relative _includes/educations.md %}
+{% include_relative _includes/experiences.md %}
 {% include_relative _includes/publications.md %}
-
+{% include_relative _includes/projects.md %}
 {% include_relative _includes/services.md %}
