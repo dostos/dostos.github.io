@@ -1,22 +1,136 @@
-main:
+conference:
+  - title: "Loss-tolerant Live Video Analytics System"
+    authors: Kichang Yang, Minkyung Jeong, Juheon Yi, <strong>Jingyu Lee</strong>, Kyungsoo Park, Youngki Lee
+    conference_short: MobiCom
+    conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking (to appear), 2024.
+    image: ./assets/img/mobicom24.png
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"
+    authors: <strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee
+    conference_short: MobiSys
+    conference: Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services, 2024.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3643832.3661891
+    doi: 10.1145/3643832.3661891
+    image: ./assets/img/mobisys24.png
+    bibtex: "@inproceedings{lee2024maestro,
+  title={Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality},
+  author={Lee, Jingyu and Kim, Hyunsoo and Kim, Minjae and Chun, Byung-Gon and Lee, Youngki},
+  booktitle={Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services},
+  pages={99--112},
+  year={2024}
+}"
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors"
+    authors: Joo Seong Jeong* (co-primary), <strong>Jingyu Lee* (co-primary)</strong>, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngki Lee, and Byung-Gon Chun
+    conference_short: MobiSys
+    conference: Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services, 2022.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3498361.3538948
+    doi: 10.1145/3498361.3538948
+    code: https://band.snu.ac.kr
+    image: ./assets/img/mobisys22.png
+    bibtex: "@inproceedings{jeonglee2022band,
+  title={Band: coordinated multi-dnn inference on heterogeneous mobile processors},
+  author={Jeong, Joo Seong and Lee, Jingyu and Kim, Donghyun and Jeon, Changmin and Jeong, Changjin and Lee, Youngki and Chun, Byung-Gon},
+  booktitle={Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services},
+  pages={235--247},
+  year={2022}
+}"
+
+
+
+journal:
+  - title: "Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-Supervised Contour Attention"
+    authors: Chung, Minyoung, <strong>Jingyu Lee</strong>, Sanguk Park, Chae Eun Lee, Jeongjin Lee, and Yeong-Gil Shin
+    conference_short: AIM
+    conference: Artificial Intelligence in Medicine, 2021.
+    pdf: https://arxiv.org/pdf/2002.05895.pdf
+    doi: 10.1016/j.artmed.2021.102023
+    image: ./assets/img/aim21.png
+    bibtex: "@article{chung2021liver,
+  title={Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention},
+  author={Chung, Minyoung and Lee, Jingyu and Park, Sanguk and Lee, Chae Eun and Lee, Jeongjin and Shin, Yeong-Gil},
+  journal={Artificial Intelligence in Medicine},
+  volume={113},
+  pages={102023},
+  year={2021},
+  publisher={Elsevier}
+}"
+
+  - title: "Automatic Registration Between Dental Cone-Beam CT and Scanned Surface via Deep Pose Regression Neural Networks and Clustered Similarities"
+    authors: Chung, Minyoung, <strong>Jingyu Lee</strong>, Wisoo Song, Youngchan Song, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
+    conference_short: TMI
+    conference: IEEE Transactions on Medical Imaging, 2020.
+    pdf: https://arxiv.org/pdf/1907.12250.pdf
+    doi: 10.1109/TMI.2020.3035361
+    image: ./assets/img/tmi20.png
+    bibtex: "@article{chung2020automatic,
+  title={Automatic registration between dental cone-beam CT and scanned surface via deep pose regression neural networks and clustered similarities},
+  author={Chung, Minyoung and Lee, Jingyu and Song, Wisoo and Song, Youngchan and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil},
+  journal={IEEE Transactions on Medical Imaging},
+  volume={39},
+  number={12},
+  pages={3900--3909},
+  year={2020},
+  publisher={IEEE}
+}"
+
+  - title: "Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation"
+    authors: Chung, Minyoung, <strong>Jingyu Lee</strong>, Minkyung Lee, Jeongjin Lee, and Yeong-Gil Shin
+    conference_short: CMPB
+    conference: Computer Methods and Programs in Biomedicine, 2020.
+    pdf: https://arxiv.org/pdf/1808.00739.pdf
+    doi: 10.1016/j.cmpb.2020.105447
+    image: ./assets/img/cmpb20.png
+    bibtex: "@article{chung2020deeply,
+  title={Deeply self-supervised contour embedded neural network applied to liver segmentation},
+  author={Chung, Minyoung and Lee, Jingyu and Lee, Minkyung and Lee, Jeongjin and Shin, Yeong-Gil},
+  journal={Computer methods and programs in biomedicine},
+  volume={192},
+  pages={105447},
+  year={2020},
+  publisher={Elsevier}
+}"
+
+  - title: "Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation"
+    authors: Chung, Minyoung, Minkyung Lee, Jioh Hong, Sanguk Park, Jusang Lee, <strong>Jingyu Lee</strong>, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
+    conference_short: CBM
+    conference: Computers in Biology and Medicine, 2020.
+    pdf: https://arxiv.org/pdf/2002.02143.pdf
+    doi: 10.1016/j.compbiomed.2020.103720
+    image: ./assets/img/cbm20.png
+    bibtex: "@article{chung2020pose,
+  title={Pose-aware instance segmentation framework from cone beam CT images for tooth segmentation},
+  author={Chung, Minyoung and Lee, Minkyung and Hong, Jioh and Park, Sanguk and Lee, Jusang and Lee, Jingyu and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil},
+  journal={Computers in Biology and Medicine},
+  volume={120},
+  pages={103720},
+  year={2020},
+  publisher={Elsevier}
+}"
+
+other:
+  - title: "Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"
+    authors: <strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee
+    conference_short: MobiSys
+    conference: Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services, 2024.
+    image: ./assets/img/mobisys24.png
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3643832.3661414
+    doi: 10.1145/3643832.3661414
+    bibtex: "@inproceedings{lee2024poster,
+  title={Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality},
+  author={Lee, Jingyu and Kim, Hyunsoo and Kim, Minjae and Chun, Byung-Gon and Lee, Youngki},
+  booktitle={Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services},
+  pages={670--671},
+  year={2024}
+}"
+  - title: "ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference"
+    authors: <strong>Jingyu Lee</strong>, Yunxin Liu, Youngki Lee
+    conference_short: EMDL
+    conference: Proceedings of the 5th International Workshop on Embedded and Mobile Deep Learning (in conjunction with MobiSys), 2021.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3469116.3470014
+    doi: 10.1145/3469116.3470014
+    image: ./assets/img/emdl21.png
+    bibtex: "@inproceedings{lee2021parallelfusion,
+  title={ParallelFusion: towards maximum utilization of mobile GPU for DNN inference},
+  author={Lee, Jingyu and Liu, Yunxin and Lee, Youngki},
+  booktitle={Proceedings of the 5th International Workshop on Embedded and Mobile Deep Learning}"

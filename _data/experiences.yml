@@ -1,0 +1,27 @@
+- title: Research Intern
+  company: Microsoft Research Asia
+  period: December 2020 – May 2021
+  team: Heterogeneous and Extreme Computing (HEX) group, Beijing, China (Virtual)
+  advisor: Yunxin Liu & Ting Cao
+  notes: "- Deep learning inference acceleration on mobile GPU - FlexBatch"
+
+- title: Software Engineer (Contract)
+  company: Microsoft
+  period: September 2016 – May 2017
+  team: Minecraft Education Edition team, Redmond, Washington, USA
+  notes: "- Developed and maintained Minecraft Education & Minecraft Pocket Edition\n 
+          - Developed companion apps (Classroom Mode & Code Connection)\n
+          - Developed visual programming experiences for K-12 students\n (e.g., Hour of Code - Minecraft Designer and Code Builder extensions for Scratch X)"
+  projects:
+    - name: "Hour of Code - Minecraft Designer"
+      image: ./assets/img/minecraft-activity-designer.png
+      project_link: https://studio.code.org/s/minecraft/lessons/1/levels/1
+      badge: Hour of Code - Minecraft Designer  
+    - name: "Code Connection"
+      image: ./assets/img/minecraft-codeconnection.jpg
+      project_link: https://apps.microsoft.com/detail/9ppfpg2fg2qb
+      badge: Code Connection for M:EE
+    - name: "Classroom Mode"
+      image: ./assets/img/minecraft-classroommode.jpg
+      project_link: https://apps.microsoft.com/detail/9p3q3nfk523q
+      badge: Classroom Mode for M:EE

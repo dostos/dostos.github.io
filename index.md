@@ -4,19 +4,19 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I'm a Ph.D. student at the [Human-Centered Computer Systems Lab](https://hcs.snu.ac.kr) under the supervision of professor [Youngki Lee](https://youngkilee.blogspot.com).
+I build a [software platform](https://band.snu.ac.kr) for edge devices that enable real-time mixed reality applications for everyone. 
 
-## Research Interests
+I have previous research experiences in medical image processing and deep learning during my masters. I was an enthusiastic game engine developer graduated from DigiPen Institute of Technology and worked for [Minecraft: Education Edition](https://education.minecraft.net) at Microsoft Studios.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
-
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+<div class="row">
+  <div class="col-sm-6">
+    {% include_relative _includes/educations.md %}
+  </div>
+  <div class="col-sm-6">
+    {% include_relative _includes/experiences.md %}
+  </div>
+</div>
 
 {% include_relative _includes/publications.md %}
 
