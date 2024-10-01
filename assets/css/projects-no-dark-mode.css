@@ -1,0 +1,164 @@
+.projects {
+  margin-top: 2rem;
+}
+
+.projects h2 {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.projects ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.projects ol.bibliography li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.projects ol.bibliography li .abbr {
+  height: 8rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.projects ol.bibliography li .abbr img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  height: 123px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.projects ol.bibliography li .abbr abbr {
+  display: inline-block;
+  background-color: var(--global-theme-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+}
+
+.projects ol.bibliography li .abbr abbr a {
+  color: white;
+}
+
+.projects ol.bibliography li .abbr abbr a:hover {
+  text-decoration: none;
+}
+
+.projects ol.bibliography li .title {
+  font-weight: bolder;
+}
+
+.projects ol.bibliography li .author a {
+  border-bottom: 1px var(--global-theme-color);
+}
+
+.projects ol.bibliography li .author a:hover {
+  border-bottom-style: solid;
+  text-decoration: none;
+}
+
+.projects ol.bibliography li .author > em {
+  border-bottom: 1px solid;
+  font-style: normal;
+}
+
+.projects ol.bibliography li .links a.btn {
+  color: #000000;
+  border: 1px solid #000000;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .projects ol.bibliography li .links a.btn {
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+  }
+}
+
+.projects ol.bibliography li .links a.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.projects ol.bibliography li .hidden {
+  font-size: 0.875rem;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: justify;
+  transition: all 0.15s ease;
+}
+
+.projects ol.bibliography li .hidden p {
+  line-height: 1.4em;
+  margin: 10px;
+}
+
+.projects ol.bibliography li .hidden pre {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+.projects ol.bibliography li .hidden.open {
+  max-height: 100em;
+  transition: all 0.15s ease;
+}
+
+.projects ol.bibliography li div.abstract.hidden {
+  border: dashed 1px var(--global-bg-color);
+}
+
+.projects ol.bibliography li div.abstract.hidden.open {
+  border-color: var(--global-text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-bg-color: #363062;
+    --global-code-bg-color: rgba(54, 48, 98, 0.05);
+    --global-text-color: #F5E8C7;
+    --global-text-color-light: #818FB4;
+    --global-theme-color: #435585;
+    --global-hover-color: rgb(245, 232, 245);
+    --global-footer-bg-color: rgb(67, 85, 133);
+    --global-footer-text-color: rgb(129, 143, 180);
+    --global-footer-link-color: rgb(245, 232, 199);
+    --global-distill-app-color: #818FB4;
+  }
+
+  .projects h2 {
+    color: rgb(36, 150, 203);
+  }
+
+  .projects ol.bibliography li .title {
+    color: rgb(36, 150, 203);
+  }
+}
+
+.projects ol.bibliography li .teaser {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  height: 123px;
+  width: 420px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}

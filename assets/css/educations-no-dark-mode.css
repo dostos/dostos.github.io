@@ -1,0 +1,55 @@
+.educations {
+    margin-top: 2rem;
+  }
+  
+  .educations h2 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  
+  .educations ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+  }
+  
+.educations ol.bibliography li {margin-bottom: 0rem;}
+  
+  .educations ol.bibliography li .title {
+    font-weight: bolder;
+  }
+  
+  .educations ol.bibliography li .institution {
+    font-style: italic;
+  }
+  
+  .educations ol.bibliography li .periodical {
+    color: var(--global-theme-color);
+    font-weight: bold;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --global-bg-color: #363062;
+      --global-code-bg-color: rgba(54, 48, 98, 0.05);
+      --global-text-color: #F5E8C7;
+      --global-text-color-light: #818FB4;
+      --global-theme-color: #435585;
+      --global-hover-color: rgb(245, 232, 245);
+      --global-footer-bg-color: rgb(67, 85, 133);
+      --global-footer-text-color: rgb(129, 143, 180);
+      --global-footer-link-color: rgb(245, 232, 199);
+      --global-distill-app-color: #818FB4;
+    }
+  
+    .educations h2 {
+      color: rgb(36, 150, 203);
+    }
+  
+    .educations ol.bibliography li .periodical {
+      color: rgb(36, 150, 203);
+    }
+  }
