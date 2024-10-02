@@ -20,9 +20,9 @@
   {% if exp.projects %}
   <div class="pub-row">
     {% for project in exp.projects %}
-    <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <div class="col-sm-3 abbr" style="position: relative;padding-right: 5px;padding-left: 5px;">
         <a href="{{ project.project_link }}" target="_blank">
-        <img src="{{ project.image }}" class="teaser img-fluid z-depth-1" style="width:auto;height=40%">
+        <img src="{{ project.image }}" class="teaser img-fluid z-depth-1" style="max-width: 100%; height: auto;">
         </a>
         {% if project.badge %}
         <abbr class="badge">{{ project.badge }}</abbr>

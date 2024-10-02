@@ -11,7 +11,7 @@
   team: Minecraft Education Edition team, Redmond, Washington, USA
   notes: "- Developed and maintained Minecraft Education & Minecraft Pocket Edition\n 
           - Developed companion apps (Classroom Mode & Code Connection)\n
-          - Developed visual programming experiences for K-12 students\n (e.g., Hour of Code - Minecraft Designer and Code Builder extensions for Scratch X)"
+          - Developed visual programming experiences for K-12 students \n(Hour of Code - Minecraft Designer and Code Builder extensions for Scratch X)"
   projects:
     - name: "Hour of Code - Minecraft Designer"
       image: ./assets/img/minecraft-activity-designer.png
