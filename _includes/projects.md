@@ -6,8 +6,8 @@
 {% for project in site.data.projects %}
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+<div class="pub-row clearfix">
+  <div class="col-sm-3 abbr clearfix" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if project.image %} 
     <img src="{{ project.image }}" class="teaser img-fluid z-depth-1" style="max-width: 420px; height: auto;">
     {% endif %}

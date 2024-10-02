@@ -5,7 +5,7 @@
 
 {% for exp in site.data.experiences %}
 <li>
-  <div class="pub-row">
+  <div class="pub-row clearfix">
     <div class="col-sm-9" style="position: relative;">
       <div class="title"><strong>{{ exp.title }}</strong>, {{ exp.company }}, {{ exp.period }}</div>
       <div class="author"><em>{{ exp.team }}</em></div>
@@ -18,7 +18,7 @@
     </div>
   </div>
   {% if exp.projects %}
-  <div class="pub-row">
+  <div class="pub-row clearfix">
     {% for project in exp.projects %}
     <div class="col-sm-3 abbr" style="position: relative;padding-right: 5px;padding-left: 5px;">
         <a href="{{ project.project_link }}" target="_blank">

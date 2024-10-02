@@ -7,8 +7,8 @@
 {% for link in site.data.publications.conference %}
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+<div class="pub-row clearfix">
+  <div class="col-sm-3 abbr clearfix" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="max-width: 100%; height: auto;">
       {% if link.conference_short %} 
@@ -59,8 +59,8 @@
 {% for link in site.data.publications.journal %}
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+<div class="pub-row clearfix">
+  <div class="col-sm-3 abbr clearfix" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="max-width: 100%; height: auto;">
       
@@ -112,8 +112,8 @@
 {% for link in site.data.publications.other %}
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+<div class="pub-row clearfix">
+  <div class="col-sm-3 abbr clearfix" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="max-width: 100%; height: auto;">
       
