@@ -41,7 +41,7 @@
   background-color: var(--global-theme-color);
   padding-left: 1rem;
   padding-right: 1rem;
-  position: absolute;
+  position: relative;
   top: 8px;
   left: 16px;
   color: white;
