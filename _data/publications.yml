@@ -1,5 +1,5 @@
 conference:
-  - title: "Loss-tolerant Live Video Analytics System"
+  - title: "Logan: Loss-tolerant Live Video Analytics System"
     authors: Kichang Yang, Minkyung Jeong, Juheon Yi, <strong>Jingyu Lee</strong>, Kyungsoo Park, Youngki Lee
     conference_short: MobiCom
     conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking (to appear), 2024.
@@ -109,6 +109,13 @@ journal:
 }"
 
 other:
+  - title: "Poster: XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality"
+    authors: Dongho Han, <strong>Jingyu Lee</strong>, Minjae Kim, and Youngki Lee
+    conference_short: MobiCom
+    conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking (to appear), 2024.
+    image: ./assets/img/mobicom24_poster.png
+
+
   - title: "Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"
     authors: <strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee
     conference_short: MobiSys
