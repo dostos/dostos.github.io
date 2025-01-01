@@ -2,8 +2,17 @@ conference:
   - title: "Logan: Loss-tolerant Live Video Analytics System"
     authors: Kichang Yang, Minkyung Jeong, Juheon Yi, <strong>Jingyu Lee</strong>, Kyungsoo Park, Youngki Lee
     conference_short: MobiCom
-    conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking (to appear), 2024.
+    conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.
     image: ./assets/img/mobicom24.png
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3636534.3690695
+    doi: 10.1145/3636534.3690695
+    bibtex: "@inproceedings{yang2024logan,
+  title={Logan: Loss-tolerant Live Video Analytics System},
+  author={Yang, Kichang and Jeong, Minkyung and Yi, Juheon and Lee, Jingyu and Park, KyoungSoo and Lee, Youngki},
+  booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+  pages={1314--1329},
+  year={2024}
+}"
 
   - title: "Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"
     authors: <strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee
@@ -112,8 +121,17 @@ other:
   - title: "Poster: XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality"
     authors: Dongho Han, <strong>Jingyu Lee</strong>, Minjae Kim, and Youngki Lee
     conference_short: MobiCom
-    conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking (to appear), 2024.
+    conference: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.
     image: ./assets/img/mobicom24_poster.png
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3636534.3697422
+    doi: 10.1145/3636534.3697422
+    bibtex: "@inproceedings{han2024xrman,
+  title={XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality},
+  author={Han, Dongho and Lee, Jingyu and Kim, Minjae and Lee, Youngki},
+  booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+  pages={1575--1577},
+  year={2024}
+}"
 
 
   - title: "Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"

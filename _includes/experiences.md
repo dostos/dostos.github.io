@@ -18,7 +18,7 @@
     </div>
   </div>
   {% if exp.projects %}
-  <div class="pub-row">
+  <div class="pub-row" style="margin-bottom: -1rem;">
     {% for project in exp.projects %}
     <div class="col-sm-3 abbr" style="position: relative;padding-right: 5px;padding-left: 5px; margin-bottom: 10px; height:fit-content;">
       <a href="{{ project.project_link }}" target="_blank">

@@ -77,7 +77,7 @@ canonical: https://minimal-light-theme.yliu.me/
 # Verknüpfungen
 # Wenn Sie eine davon nicht benötigen, können Sie die entsprechende Zeile löschen.
 google_scholar: https://scholar.google.com/
-cv_link: files/jingyu_lee_cv_2410.pdf
+cv_link: files/jingyu_lee_cv_2412.pdf
 github_link: https://github.com/
 linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
