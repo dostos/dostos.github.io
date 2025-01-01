@@ -1,0 +1,27 @@
+.sidebar-header {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Hide the sidebar off-screen */
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    transition: left 0.3s ease; /* Smooth transition */
+  }
+  
+  .sidebar-header.active {
+    left: 0; /* Show the sidebar */
+  }
+  
+  .sidebar-header a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .sidebar-header a:hover {
+    color: #0077B5;
+  }

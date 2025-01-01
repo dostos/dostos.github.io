@@ -217,4 +217,4 @@ blockquote {
 
 .experiences ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.experiences ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 420px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+.experiences ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: auto; width: 420px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
