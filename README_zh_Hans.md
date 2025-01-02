@@ -73,7 +73,7 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # 链接
 google_scholar: https://scholar.google.com/
-cv_link: files/jingyu_lee_cv_2412.pdf
+cv_link: files/jingyu_lee_cv.pdf
 github_link: https://github.com/
 linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
