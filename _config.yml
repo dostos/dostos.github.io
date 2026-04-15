@@ -2,6 +2,7 @@
 title: Jingyu Lee
 position: Ph.D. Student
 affiliation: Seoul National University
+affiliation_link: https://hcs.snu.ac.kr
 email: jingyu.lee (at) hcs.snu.ac.kr
 
 # Search Engine Optimization (SEO)
@@ -29,7 +30,7 @@ enable_footnote: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: false
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
