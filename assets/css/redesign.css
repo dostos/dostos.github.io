@@ -303,6 +303,114 @@ p:last-child { margin-bottom: 0; }
 
 
 /* ==========================================================
+   OVERVIEW — FLOATING BUBBLES
+   ========================================================== */
+.overview-hero {
+  position: relative;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.about-intro {
+  position: relative;
+  z-index: 2;
+}
+
+/* Bubbles */
+.bubble {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  animation: bubbleIn 0.6s ease forwards, float var(--dur) ease-in-out var(--delay) infinite alternate;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bubble:hover {
+  transform: scale(1.18) !important;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  z-index: 4;
+}
+
+.bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@keyframes bubbleIn {
+  from { opacity: 0; transform: scale(0.4); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Each bubble: unique size, position, float path, timing */
+.b1 {
+  width: 72px; height: 72px;
+  top: -8px; left: -20px;
+  --dur: 7s; --delay: 0s;
+  animation-delay: 0.1s, 0.1s;
+  border: 2px solid rgba(224,138,78,0.3);
+}
+.b2 {
+  width: 58px; height: 58px;
+  top: 10px; right: 30px;
+  --dur: 8s; --delay: 0.5s;
+  animation-delay: 0.18s, 0.18s;
+  border: 2px solid rgba(224,138,78,0.3);
+}
+.b3 {
+  width: 66px; height: 66px;
+  top: 45%; right: -16px;
+  --dur: 9s; --delay: 1s;
+  animation-delay: 0.25s, 0.25s;
+  border: 2px solid rgba(124,91,175,0.3);
+}
+.b4 {
+  width: 60px; height: 60px;
+  bottom: 30px; right: 50px;
+  --dur: 7.5s; --delay: 0.3s;
+  animation-delay: 0.32s, 0.32s;
+  border: 2px solid rgba(124,91,175,0.3);
+}
+.b5 {
+  width: 54px; height: 54px;
+  bottom: -5px; left: 35%;
+  --dur: 8.5s; --delay: 0.8s;
+  animation-delay: 0.38s, 0.38s;
+  border: 2px solid rgba(124,91,175,0.3);
+}
+.b6 {
+  width: 50px; height: 50px;
+  bottom: 20px; left: -10px;
+  --dur: 6.5s; --delay: 0.2s;
+  animation-delay: 0.44s, 0.44s;
+  border: 2px solid rgba(61,160,138,0.3);
+}
+.b7 {
+  width: 56px; height: 56px;
+  top: 40%; left: -24px;
+  --dur: 9.5s; --delay: 1.2s;
+  animation-delay: 0.5s, 0.5s;
+  border: 2px solid rgba(91,142,196,0.3);
+}
+.b8 {
+  width: 48px; height: 48px;
+  top: 5px; left: 42%;
+  --dur: 7s; --delay: 0.6s;
+  animation-delay: 0.56s, 0.56s;
+  border: 2px solid rgba(91,142,196,0.3);
+}
+
+/* Float keyframes — gentle drifting */
+@keyframes float {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(8px, -12px) rotate(3deg); }
+}
+
+
+/* ==========================================================
    RESEARCH — YEAR-BASED PUBLICATIONS
    ========================================================== */
 .year-section {
@@ -370,6 +478,7 @@ p:last-child { margin-bottom: 0; }
 .pub-type-workshop   { background: rgba(224,138,78,0.1);  color: var(--phase-games); }
 .pub-type-poster     { background: rgba(91,142,196,0.1);  color: var(--phase-medical); }
 .pub-type-demo       { background: rgba(61,160,138,0.1);  color: var(--phase-spatial); }
+.pub-type-preprint   { background: rgba(142,142,142,0.1); color: var(--color-text-secondary); }
 
 .pub-title {
   font-size: 0.95rem;
@@ -660,6 +769,9 @@ p:last-child { margin-bottom: 0; }
   .social-icons { justify-content: center; }
   .tab-nav-inner { justify-content: center; }
   .tab-btn { padding: 8px 16px; font-size: 0.82rem; }
+
+  .bubble { display: none; }
+  .overview-hero { padding: 0; }
 
   .pub-entry { flex-direction: column; }
   .pub-teaser { width: 100%; max-width: 280px; }

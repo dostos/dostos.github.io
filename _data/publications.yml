@@ -1,3 +1,20 @@
+- year: 2025
+  papers:
+    - title: "Explorable Ideas: Externalizing Ideas as Explorable Environments"
+      authors: Euijun Jung, <strong>Jingyu Lee</strong>, Minji Kim, Youngki Lee
+      venue_short: arXiv
+      venue: "arXiv preprint, 2025."
+      type: Preprint
+      image: ./assets/img/explorable_ideas.png
+      pdf: https://arxiv.org/pdf/2512.17017
+      doi: 10.48550/arXiv.2512.17017
+      bibtex: "@article{jung2025explorable,
+  title={Explorable Ideas: Externalizing Ideas as Explorable Environments},
+  author={Jung, Euijun and Lee, Jingyu and Kim, Minji and Lee, Youngki},
+  journal={arXiv preprint arXiv:2512.17017},
+  year={2025}
+}"
+
 - year: 2024
   papers:
     - title: "Logan: Loss-tolerant Live Video Analytics System"
@@ -48,26 +65,11 @@
   year={2024}
 }"
 
-    - title: "Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"
-      authors: <strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee
-      venue_short: MobiSys
-      venue: Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services, 2024.
-      type: Poster
-      image: ./assets/img/mobisys24.png
-      pdf: https://dl.acm.org/doi/pdf/10.1145/3643832.3661414
-      doi: 10.1145/3643832.3661414
-      bibtex: "@inproceedings{lee2024poster,
-  title={Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality},
-  author={Lee, Jingyu and Kim, Hyunsoo and Kim, Minjae and Chun, Byung-Gon and Lee, Youngki},
-  booktitle={Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services},
-  pages={670--671},
-  year={2024}
-}"
 
 - year: 2022
   papers:
     - title: "Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors"
-      authors: Joo Seong Jeong* (co-primary), <strong>Jingyu Lee* (co-primary)</strong>, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngki Lee, and Byung-Gon Chun
+      authors: Joo Seong Jeong*, <strong>Jingyu Lee*</strong>, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngki Lee, and Byung-Gon Chun
       venue_short: MobiSys
       venue: Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services, 2022.
       type: Conference
@@ -109,6 +111,7 @@
       venue: Proceedings of the 5th International Workshop on Embedded and Mobile Deep Learning (in conjunction with MobiSys), 2021.
       type: Workshop
       pdf: https://dl.acm.org/doi/pdf/10.1145/3469116.3470014
+      page: https://dl.acm.org/doi/10.1145/3469116.3470014
       doi: 10.1145/3469116.3470014
       image: ./assets/img/emdl21.png
       bibtex: "@inproceedings{lee2021parallelfusion,

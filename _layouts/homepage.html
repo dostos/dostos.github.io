@@ -16,7 +16,7 @@
 
     <link rel="icon" href="{{ site.favicon }}" type="image/png" />
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./assets/css/redesign.css">
@@ -63,6 +63,11 @@
               <i class="fab fa-linkedin"></i>
             </a>
             {% endif %}
+            {% if site.orcid %}
+            <a href="{{ site.orcid }}" title="ORCID">
+              <i class="ai ai-orcid"></i>
+            </a>
+            {% endif %}
             {% if site.twitter %}
             <a href="{{ site.twitter }}" title="Twitter">
               <i class="fab fa-x-twitter"></i>
@@ -80,7 +85,7 @@
         <button class="tab-btn active" data-tab="overview">Overview</button>
         <button class="tab-btn" data-tab="research">Research</button>
         <button class="tab-btn" data-tab="projects">Projects</button>
-        <button class="tab-btn" data-tab="background">Background</button>
+        <button class="tab-btn" data-tab="cv">Education & Experience</button>
       </div>
     </nav>
 
@@ -93,15 +98,20 @@
         <section class="content-section">
           <div class="about-intro">
             <p>
-              I'm a Ph.D. student at the <a href="https://hcs.snu.ac.kr">Human-Centered Computer Systems Lab</a> under the supervision of professor <a href="https://youngkilee.blogspot.com">Youngki Lee</a>.
-              I build a <a href="https://band.snu.ac.kr">software platform</a> for edge devices that enable real-time mixed reality applications for everyone.
+              I am an experimental computer systems researcher at the <a href="https://hcs.snu.ac.kr">Human-Centered Computer Systems Lab</a>.
+              I envision future applications unconstrained by existing technologies, and realize them by building the supporting systems that make those futures executable &mdash; spanning <a href="#" class="tab-link" data-tab="research" data-scroll="band">mobile on-device intelligence</a>, <a href="#" class="tab-link" data-tab="research" data-scroll="maestro">mixed reality frameworks</a>, and spatial telepresence across separate physical spaces.
+              My trajectory here has not been linear: I started as a proud <a href="https://www.digipen.edu/showcase/news/introducing-the-digipen-dragons">DigiPen Dragons</a>, professional game developer working on <a href="https://education.minecraft.net">Minecraft: Education Edition</a> at Microsoft Studios, then turned to medical imaging and 3D vision researcher during my master's.
             </p>
             <p>
-              My research journey began in game engine development at <a href="https://www.digipen.edu">DigiPen Institute of Technology</a>, where I built physics engines and shipped titles including an <em>E3 College Game Competition Finalist</em>. After working on <a href="https://education.minecraft.net">Minecraft: Education Edition</a> at Microsoft, I shifted to medical imaging and 3D vision during my M.S. at Seoul National University, publishing in IEEE TMI and other venues. These threads &mdash; real-time systems, 3D understanding, and on-device intelligence &mdash; converge in my current Ph.D. work on mixed-reality and spatial computing.
+              Most of computing pulls people into screens. My research asks the opposite &mdash; how spatial computing can extend computation into physical space, so that it augments rather than displaces our experience of the real world.
+              Realizing this requires a new kind of software platform: one that moves beyond passively sensing or simulating space, toward systems that interact with users and actuate the environment itself.
+              I see this as a bridge between computer systems and architecture &mdash; where built environments are no longer static backgrounds but dynamic structures, co-designed with the computational layer that inhabits them.
+            </p>
+            <p>
+              Outside of research, I'm an avid yogi who enjoys getting lost in the city and in nature.
             </p>
           </div>
         </section>
-
 
       </div>
 
@@ -113,7 +123,7 @@
           <h2 class="year-heading">{{ year_group.year }}</h2>
 
           {% for pub in year_group.papers %}
-          <div class="pub-entry">
+          <div class="pub-entry" id="pub-{{ pub.title | slugify }}">
             {% if pub.image %}
             <div class="pub-teaser">
               <img src="{{ pub.image }}" alt="{{ pub.title }}">
@@ -207,7 +217,7 @@
       </div>
 
       <!-- ==================== BACKGROUND TAB ==================== -->
-      <div class="tab-content" id="tab-background">
+      <div class="tab-content" id="tab-cv">
 
         <section class="content-section">
           <h2 class="section-title">Education</h2>
@@ -233,8 +243,8 @@
           <div class="card card-purple">
             <div class="card-row">
               <div>
-                <h3 class="card-title">{{ exp.title }}</h3>
-                <p class="card-subtitle">{{ exp.company }} &middot; {{ exp.team }}</p>
+                <h3 class="card-title">{{ exp.title }}, {{ exp.company }}</h3>
+                <p class="card-subtitle">{{ exp.team }}</p>
                 {% if exp.advisor %}
                 <p class="card-meta">Advisor: {{ exp.advisor }}</p>
                 {% endif %}
@@ -266,6 +276,7 @@
             <h3 class="card-title">Journal Reviewers</h3>
             <ul class="service-list">
               <li><a href="https://www.ieeetmi.org/">IEEE Transactions on Medical Imaging (TMI)</a></li>
+              <li><a href="https://vtsociety.org/publication/ieee-transactions-vehicular-technology">IEEE Transactions on Vehicular Technology (TVT)</a></li>
             </ul>
           </div>
         </section>
@@ -290,7 +301,7 @@
 
     // Re-trigger entrance animations
     function reAnimateCards(container) {
-      var items = container.querySelectorAll('.card, .pub-entry, .interest-item');
+      var items = container.querySelectorAll('.card, .pub-entry, .bubble');
       items.forEach(function(el) {
         el.style.animation = 'none';
         el.offsetHeight;
@@ -310,6 +321,25 @@
         reAnimateCards(panel);
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
+    });
+
+    // Handle tab-link clicks (cross-tab navigation)
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('.tab-link');
+      if (!link) return;
+      e.preventDefault();
+      var tab = link.dataset.tab;
+      var scrollTo = link.dataset.scroll;
+      // Switch tab
+      var btn = document.querySelector('.tab-btn[data-tab="' + tab + '"]');
+      if (btn) btn.click();
+      // Scroll to element
+      if (scrollTo) {
+        setTimeout(function() {
+          var el = document.querySelector('[id*="' + scrollTo + '"]');
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 400);
+      }
     });
 
     window.addEventListener('load', function() {
