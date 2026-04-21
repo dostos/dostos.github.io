@@ -44,33 +44,33 @@
           {% endif %}
           <div class="social-icons">
             {% if site.google_scholar %}
-            <a href="{{ site.google_scholar }}" title="Google Scholar">
-              <i class="ai ai-google-scholar"></i>
+            <a href="{{ site.google_scholar }}" title="Google Scholar" aria-label="Google Scholar">
+              <i class="ai ai-google-scholar" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if site.cv_link %}
-            <a href="{{ site.cv_link }}" title="CV">
-              <i class="ai ai-cv"></i>
+            <a href="{{ site.cv_link }}" title="CV" aria-label="Curriculum Vitae">
+              <i class="ai ai-cv" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if site.github_link %}
-            <a href="{{ site.github_link }}" title="GitHub">
-              <i class="fab fa-github"></i>
+            <a href="{{ site.github_link }}" title="GitHub" aria-label="GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if site.linkedin %}
-            <a href="{{ site.linkedin }}" title="LinkedIn">
-              <i class="fab fa-linkedin"></i>
+            <a href="{{ site.linkedin }}" title="LinkedIn" aria-label="LinkedIn">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if site.orcid %}
-            <a href="{{ site.orcid }}" title="ORCID">
-              <i class="ai ai-orcid"></i>
+            <a href="{{ site.orcid }}" title="ORCID" aria-label="ORCID">
+              <i class="ai ai-orcid" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if site.twitter %}
-            <a href="{{ site.twitter }}" title="Twitter">
-              <i class="fab fa-x-twitter"></i>
+            <a href="{{ site.twitter }}" title="Twitter" aria-label="Twitter">
+              <i class="fab fa-x-twitter" aria-hidden="true"></i>
             </a>
             {% endif %}
           </div>
@@ -79,21 +79,62 @@
     </div>
 
     <!-- Tab Navigation -->
-    <nav class="tab-nav">
-      <div class="tab-nav-inner">
-        <div class="tab-indicator"></div>
-        <button class="tab-btn active" data-tab="overview">Overview</button>
-        <button class="tab-btn" data-tab="research">Research</button>
-        <button class="tab-btn" data-tab="projects">Projects</button>
-        <button class="tab-btn" data-tab="cv">Education & Experience</button>
+    <nav class="tab-nav" aria-label="Sections">
+      <div class="tab-nav-inner" role="tablist">
+        <div class="tab-indicator" aria-hidden="true"></div>
+        <button class="tab-btn active"
+                role="tab"
+                id="tab-btn-overview"
+                data-tab="overview"
+                aria-selected="true"
+                aria-controls="tab-overview"
+                tabindex="0">Overview</button>
+        <button class="tab-btn"
+                role="tab"
+                id="tab-btn-research"
+                data-tab="research"
+                aria-selected="false"
+                aria-controls="tab-research"
+                tabindex="-1">Research</button>
+        <button class="tab-btn"
+                role="tab"
+                id="tab-btn-projects"
+                data-tab="projects"
+                aria-selected="false"
+                aria-controls="tab-projects"
+                tabindex="-1">Projects</button>
+        <button class="tab-btn"
+                role="tab"
+                id="tab-btn-cv"
+                data-tab="cv"
+                aria-selected="false"
+                aria-controls="tab-cv"
+                tabindex="-1">CV</button>
       </div>
+    </nav>
+
+    <!-- Year scrubber (Research tab only, desktop only) -->
+    <nav class="year-slider" aria-label="Jump to year" id="year-slider">
+      <ol class="year-slider-list">
+        {% for year_group in site.data.publications %}
+        <li class="year-slider-li">
+          <a href="#year-{{ year_group.year }}"
+             class="year-slider-item"
+             data-year="{{ year_group.year }}"
+             aria-current="false">
+            <span class="year-slider-dot" aria-hidden="true"></span>
+            <span class="year-slider-label">{{ year_group.year }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
     </nav>
 
     <!-- Tab Content -->
     <main class="tab-content-wrapper">
 
       <!-- ==================== OVERVIEW TAB ==================== -->
-      <div class="tab-content active" id="tab-overview">
+      <div class="tab-content active" id="tab-overview" role="tabpanel" aria-labelledby="tab-btn-overview" tabindex="0">
 
         <section class="content-section">
           <div class="about-intro">
@@ -116,14 +157,14 @@
       </div>
 
       <!-- ==================== RESEARCH TAB ==================== -->
-      <div class="tab-content" id="tab-research">
+      <div class="tab-content" id="tab-research" role="tabpanel" aria-labelledby="tab-btn-research" tabindex="0" hidden>
 
         {% for year_group in site.data.publications %}
-        <section class="content-section year-section">
+        <section class="content-section year-section" id="year-{{ year_group.year }}">
           <h2 class="year-heading">{{ year_group.year }}</h2>
 
           {% for pub in year_group.papers %}
-          <div class="pub-entry" id="pub-{{ pub.title | slugify }}">
+          <div class="pub-entry" id="pub-{{ pub.title | slugify }}" style="--i: {{ forloop.index0 }};">
             {% if pub.image %}
             <div class="pub-teaser">
               <img src="{{ pub.image }}" alt="{{ pub.title }}">
@@ -136,19 +177,19 @@
               <p class="pub-venue">{{ pub.venue }}</p>
               <div class="pub-links">
                 {% if pub.pdf %}
-                <a href="{{ pub.pdf }}" class="pub-link" target="_blank">PDF</a>
+                <a href="{{ pub.pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>
                 {% endif %}
                 {% if pub.code %}
-                <a href="{{ pub.code }}" class="pub-link" target="_blank">Code</a>
+                <a href="{{ pub.code }}" class="pub-link" target="_blank" rel="noopener">Code</a>
                 {% endif %}
                 {% if pub.page %}
-                <a href="{{ pub.page }}" class="pub-link" target="_blank">Project Page</a>
+                <a href="{{ pub.page }}" class="pub-link" target="_blank" rel="noopener">Project Page</a>
                 {% endif %}
                 {% if pub.bibtex %}
-                <a href="javascript:void(0);" class="pub-link" onclick="copyToClipboard('{{ pub.bibtex | escape }}')">BibTeX</a>
+                <button type="button" class="pub-link" data-bibtex="{{ pub.bibtex | escape }}">BibTeX</button>
                 {% endif %}
                 {% if pub.doi %}
-                <a href="https://doi.org/{{ pub.doi }}" class="pub-link" target="_blank">DOI</a>
+                <a href="https://doi.org/{{ pub.doi }}" class="pub-link" target="_blank" rel="noopener">DOI</a>
                 {% endif %}
               </div>
               {% if pub.notes %}
@@ -164,13 +205,13 @@
       </div>
 
       <!-- ==================== PROJECTS TAB ==================== -->
-      <div class="tab-content" id="tab-projects">
+      <div class="tab-content" id="tab-projects" role="tabpanel" aria-labelledby="tab-btn-projects" tabindex="0" hidden>
 
         <section class="content-section">
           <h2 class="section-title">Projects</h2>
           <div class="projects-grid">
             {% for project in site.data.projects %}
-            <div class="card project-card card-project-{{ forloop.index }}">
+            <div class="card card-project" style="--i: {{ forloop.index0 }};">
               {% if project.image %}
               <div class="project-image">
                 <img src="{{ project.image }}" alt="{{ project.title }}">
@@ -193,19 +234,19 @@
                 {% endif %}
                 <div class="pub-links">
                   {% if project.external_link %}
-                  <a href="{{ project.external_link }}" class="pub-link" target="_blank">Project</a>
+                  <a href="{{ project.external_link }}" class="pub-link" target="_blank" rel="noopener">Project</a>
                   {% endif %}
                   {% if project.url_code %}
-                  <a href="{{ project.url_code }}" class="pub-link" target="_blank">Code</a>
+                  <a href="{{ project.url_code }}" class="pub-link" target="_blank" rel="noopener">Code</a>
                   {% endif %}
                   {% if project.url_pdf %}
-                  <a href="{{ project.url_pdf }}" class="pub-link" target="_blank">PDF</a>
+                  <a href="{{ project.url_pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>
                   {% endif %}
                   {% if project.url_slides %}
-                  <a href="{{ project.url_slides }}" class="pub-link" target="_blank">Slides</a>
+                  <a href="{{ project.url_slides }}" class="pub-link" target="_blank" rel="noopener">Slides</a>
                   {% endif %}
                   {% if project.url_video %}
-                  <a href="{{ project.url_video }}" class="pub-link" target="_blank">Video</a>
+                  <a href="{{ project.url_video }}" class="pub-link" target="_blank" rel="noopener">Video</a>
                   {% endif %}
                 </div>
               </div>
@@ -217,12 +258,12 @@
       </div>
 
       <!-- ==================== BACKGROUND TAB ==================== -->
-      <div class="tab-content" id="tab-cv">
+      <div class="tab-content" id="tab-cv" role="tabpanel" aria-labelledby="tab-btn-cv" tabindex="0" hidden>
 
         <section class="content-section">
           <h2 class="section-title">Education</h2>
           {% for edu in site.data.educations %}
-          <div class="card card-green">
+          <div class="card card-education" style="--i: {{ forloop.index0 }};">
             <div class="card-row">
               <div>
                 <h3 class="card-title">{{ edu.degree }}</h3>
@@ -240,7 +281,7 @@
         <section class="content-section">
           <h2 class="section-title">Experience</h2>
           {% for exp in site.data.experiences %}
-          <div class="card card-purple">
+          <div class="card card-experience" style="--i: {{ forloop.index0 }};">
             <div class="card-row">
               <div>
                 <h3 class="card-title">{{ exp.title }}, {{ exp.company }}</h3>
@@ -257,7 +298,7 @@
             {% if exp.projects %}
             <div class="exp-projects">
               {% for project in exp.projects %}
-              <a href="{{ project.project_link }}" target="_blank" class="exp-project-item">
+              <a href="{{ project.project_link }}" target="_blank" rel="noopener" class="exp-project-item">
                 <img src="{{ project.image }}" alt="{{ project.name }}">
                 {% if project.badge %}
                 <span class="exp-project-badge">{{ project.badge }}</span>
@@ -272,7 +313,7 @@
 
         <section class="content-section">
           <h2 class="section-title">Services</h2>
-          <div class="card card-rose">
+          <div class="card card-service" style="--i: 0;">
             <h3 class="card-title">Journal Reviewers</h3>
             <ul class="service-list">
               <li><a href="https://www.ieeetmi.org/">IEEE Transactions on Medical Imaging (TMI)</a></li>
@@ -285,81 +326,236 @@
 
     </main>
 
+    <!-- Live region for screen-reader announcements -->
+    <div id="sr-live" class="visually-hidden" aria-live="polite" aria-atomic="true"
+         style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;"></div>
+
     <!-- Footer -->
     <footer class="site-footer">
       <p>&copy; {{ site.title }} {{ 'now' | date: '%Y' }}</p>
     </footer>
 
     <script>
-    // Sliding tab indicator
-    function moveIndicator(activeBtn) {
-      var indicator = document.querySelector('.tab-indicator');
-      if (!indicator || !activeBtn) return;
-      indicator.style.left = activeBtn.offsetLeft + 'px';
-      indicator.style.width = activeBtn.offsetWidth + 'px';
-    }
+    (function () {
+      'use strict';
 
-    // Re-trigger entrance animations
-    function reAnimateCards(container) {
-      var items = container.querySelectorAll('.card, .pub-entry, .bubble');
-      items.forEach(function(el) {
-        el.style.animation = 'none';
-        el.offsetHeight;
-        el.style.animation = '';
-      });
-    }
+      var tabButtons = Array.prototype.slice.call(document.querySelectorAll('.tab-btn'));
+      var tabPanels  = Array.prototype.slice.call(document.querySelectorAll('.tab-content'));
+      var indicator  = document.querySelector('.tab-indicator');
+      var srLive     = document.getElementById('sr-live');
 
-    // Tab switching
-    document.querySelectorAll('.tab-btn').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
-        document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
-        btn.classList.add('active');
-        var panel = document.getElementById('tab-' + btn.dataset.tab);
-        panel.classList.add('active');
-        moveIndicator(btn);
-        reAnimateCards(panel);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    });
-
-    // Handle tab-link clicks (cross-tab navigation)
-    document.addEventListener('click', function(e) {
-      var link = e.target.closest('.tab-link');
-      if (!link) return;
-      e.preventDefault();
-      var tab = link.dataset.tab;
-      var scrollTo = link.dataset.scroll;
-      // Switch tab
-      var btn = document.querySelector('.tab-btn[data-tab="' + tab + '"]');
-      if (btn) btn.click();
-      // Scroll to element
-      if (scrollTo) {
-        setTimeout(function() {
-          var el = document.querySelector('[id*="' + scrollTo + '"]');
-          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 400);
+      // Move the sliding indicator under the active tab
+      function moveIndicator(activeBtn) {
+        if (!indicator || !activeBtn) return;
+        indicator.style.left = activeBtn.offsetLeft + 'px';
+        indicator.style.width = activeBtn.offsetWidth + 'px';
       }
-    });
 
-    window.addEventListener('load', function() {
-      moveIndicator(document.querySelector('.tab-btn.active'));
-    });
-    window.addEventListener('resize', function() {
-      moveIndicator(document.querySelector('.tab-btn.active'));
-    });
+      // Re-trigger entrance animations when a panel becomes visible
+      function reAnimate(container) {
+        var items = container.querySelectorAll('.card, .pub-entry');
+        items.forEach(function (el) {
+          el.style.animation = 'none';
+          // Force reflow so the animation replays.
+          /* eslint-disable no-unused-expressions */
+          el.offsetHeight;
+          /* eslint-enable no-unused-expressions */
+          el.style.animation = '';
+        });
+      }
 
-    // BibTeX copy toast
-    function copyToClipboard(text) {
-      navigator.clipboard.writeText(text).then(function() {
-        var toast = document.createElement('div');
-        toast.textContent = 'BibTeX copied';
-        toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#2B2B2B;color:#fff;padding:10px 24px;border-radius:8px;font-size:0.88rem;z-index:9999;box-shadow:0 4px 16px rgba(0,0,0,0.15);animation:tabFadeIn 0.3s ease;';
-        document.body.appendChild(toast);
-        setTimeout(function() { toast.style.opacity = '0'; toast.style.transition = 'opacity 0.3s'; }, 1800);
-        setTimeout(function() { toast.remove(); }, 2200);
+      function activateTab(btn, opts) {
+        opts = opts || {};
+        if (!btn) return;
+        var targetId = 'tab-' + btn.dataset.tab;
+
+        tabButtons.forEach(function (b) {
+          var isActive = b === btn;
+          b.classList.toggle('active', isActive);
+          b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          b.setAttribute('tabindex', isActive ? '0' : '-1');
+        });
+
+        tabPanels.forEach(function (p) {
+          var isActive = p.id === targetId;
+          p.classList.toggle('active', isActive);
+          if (isActive) {
+            p.removeAttribute('hidden');
+          } else {
+            p.setAttribute('hidden', '');
+          }
+        });
+
+        // Expose the active tab on <body> so other UI (e.g. year slider) can react
+        document.body.setAttribute('data-active-tab', btn.dataset.tab);
+
+        var activePanel = document.getElementById(targetId);
+        if (activePanel) reAnimate(activePanel);
+        moveIndicator(btn);
+
+        if (srLive) srLive.textContent = btn.textContent.trim() + ' tab selected';
+
+        if (opts.focus) btn.focus();
+        if (opts.scroll !== false) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }
+
+      // Seed the initial tab state on <body>
+      var initiallyActive = document.querySelector('.tab-btn.active');
+      if (initiallyActive) {
+        document.body.setAttribute('data-active-tab', initiallyActive.dataset.tab);
+      }
+
+      // Click + keyboard handling for tabs
+      tabButtons.forEach(function (btn, idx) {
+        btn.addEventListener('click', function () {
+          activateTab(btn);
+        });
+
+        btn.addEventListener('keydown', function (e) {
+          var next;
+          switch (e.key) {
+            case 'ArrowRight':
+              next = tabButtons[(idx + 1) % tabButtons.length];
+              e.preventDefault();
+              activateTab(next, { focus: true, scroll: false });
+              break;
+            case 'ArrowLeft':
+              next = tabButtons[(idx - 1 + tabButtons.length) % tabButtons.length];
+              e.preventDefault();
+              activateTab(next, { focus: true, scroll: false });
+              break;
+            case 'Home':
+              e.preventDefault();
+              activateTab(tabButtons[0], { focus: true, scroll: false });
+              break;
+            case 'End':
+              e.preventDefault();
+              activateTab(tabButtons[tabButtons.length - 1], { focus: true, scroll: false });
+              break;
+          }
+        });
       });
-    }
+
+      // In-copy links that switch tab and optionally scroll to an anchor
+      document.addEventListener('click', function (e) {
+        var link = e.target.closest('.tab-link');
+        if (!link) return;
+        e.preventDefault();
+        var targetBtn = document.querySelector('.tab-btn[data-tab="' + link.dataset.tab + '"]');
+        if (!targetBtn) return;
+        activateTab(targetBtn);
+        var scrollTo = link.dataset.scroll;
+        if (scrollTo) {
+          setTimeout(function () {
+            var el = document.querySelector('[id*="' + scrollTo + '"]');
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 400);
+        }
+      });
+
+      window.addEventListener('load', function () {
+        moveIndicator(document.querySelector('.tab-btn.active'));
+      });
+      window.addEventListener('resize', function () {
+        moveIndicator(document.querySelector('.tab-btn.active'));
+      });
+
+      // Year scrubber (Research tab): highlight the year currently in view
+      var slider = document.getElementById('year-slider');
+      if (slider) {
+        var sliderItems = Array.prototype.slice.call(
+          slider.querySelectorAll('.year-slider-item')
+        );
+        var yearSections = Array.prototype.slice.call(
+          document.querySelectorAll('.year-section')
+        );
+
+        function setActiveYear(year) {
+          sliderItems.forEach(function (item) {
+            item.setAttribute(
+              'aria-current',
+              item.dataset.year === String(year) ? 'true' : 'false'
+            );
+          });
+        }
+
+        if ('IntersectionObserver' in window && yearSections.length) {
+          var yearObserver = new IntersectionObserver(
+            function (entries) {
+              // Only react when the Research tab is actually visible
+              if (document.body.getAttribute('data-active-tab') !== 'research') return;
+              // Of all intersecting years, pick the one closest to the viewport top
+              var visible = entries
+                .filter(function (e) { return e.isIntersecting; })
+                .sort(function (a, b) {
+                  return a.boundingClientRect.top - b.boundingClientRect.top;
+                });
+              if (visible.length) {
+                var year = visible[0].target.id.replace('year-', '');
+                setActiveYear(year);
+              }
+            },
+            {
+              // Section is "active" when it's in the top third of the viewport
+              rootMargin: '-15% 0px -60% 0px',
+              threshold: 0,
+            }
+          );
+          yearSections.forEach(function (s) { yearObserver.observe(s); });
+        }
+
+        // Smooth-scroll on click
+        sliderItems.forEach(function (item) {
+          item.addEventListener('click', function (e) {
+            e.preventDefault();
+            var target = document.getElementById('year-' + item.dataset.year);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              setActiveYear(item.dataset.year);
+            }
+          });
+        });
+
+        // Default to the first (newest) year until scroll establishes one
+        if (sliderItems.length) {
+          setActiveYear(sliderItems[0].dataset.year);
+        }
+      }
+
+      // BibTeX copy — wire up buttons with [data-bibtex]
+      function showToast(message) {
+        var toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.setAttribute('role', 'status');
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        setTimeout(function () { toast.classList.add('is-leaving'); }, 1800);
+        setTimeout(function () { toast.remove(); }, 2200);
+      }
+
+      document.querySelectorAll('.pub-link[data-bibtex]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var text = btn.getAttribute('data-bibtex') || '';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(
+              function () { showToast('BibTeX copied'); },
+              function () { showToast('Copy failed'); }
+            );
+          } else {
+            // Fallback
+            var ta = document.createElement('textarea');
+            ta.value = text;
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); showToast('BibTeX copied'); }
+            catch (err) { showToast('Copy failed'); }
+            ta.remove();
+          }
+        });
+      });
+    })();
     </script>
 
     {% if site.google_analytics %}
