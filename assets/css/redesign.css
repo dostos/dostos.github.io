@@ -399,11 +399,18 @@ p:last-child {
    YEAR SLIDER (timeline scrubber)
    ========================================================== */
 .year-slider {
+  /* Tab-nav is ~64px tall — reserve that plus breathing room so the
+     slider is never clipped by the sticky header on short viewports. */
+  --tab-nav-gap: 88px;
+
   position: fixed;
   top: 50%;
   left: max(var(--space-6), calc(50% - (var(--max-width) / 2) - 140px));
   transform: translateY(-50%);
-  z-index: 50;
+  /* Above tab-nav (z-index: var(--z-nav) = 100) so overlap never hides it */
+  z-index: calc(var(--z-nav) + 1);
+  max-height: calc(100vh - var(--tab-nav-gap) - var(--space-6));
+  overflow: visible;
   opacity: 0;
   visibility: hidden;
   transition: opacity var(--duration-base) var(--ease-standard),
