@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Jingyu Lee</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jingyu Lee's personal homepage.">
+    
+    <meta name="keywords" content="Jingyu Lee">
+    
+    
+    <link rel="canonical" href="https://jingyulee.com"/>
+    
+
+    <link rel="icon" href="./assets/img/avatar.jpg" type="image/png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/redesign.css">
+
+  </head>
+  <body>
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-inner">
+        
+        <img src="./assets/img/avatar.jpg" alt="avatar" class="profile-avatar" />
+        
+        <div class="profile-info">
+          <h1 class="profile-name">Jingyu Lee</h1>
+          
+          <p class="profile-position">Ph.D. Candidate</p>
+          
+          
+          <p class="profile-affiliation">
+            <a href="https://hcs.snu.ac.kr" rel="noopener">Human-Centered Computer Systems Lab, Seoul National University</a>
+          </p>
+          
+          
+          <p class="profile-email">jingyu.lee (at) hcs.snu.ac.kr</p>
+          
+          <div class="social-icons">
+            
+            <a href="https://scholar.google.com/citations?user=KudFCItUGWkC&hl" title="Google Scholar" aria-label="Google Scholar">
+              <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            </a>
+            
+            
+            <a href="assets/files/jingyu_lee_cv.pdf" title="CV" aria-label="Curriculum Vitae">
+              <i class="ai ai-cv" aria-hidden="true"></i>
+            </a>
+            
+            
+            <a href="https://github.com/dostos" title="GitHub" aria-label="GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            
+            
+            <a href="https://www.linkedin.com/in/dostos10/" title="LinkedIn" aria-label="LinkedIn">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            
+            
+            <a href="https://orcid.org/0000-0001-9728-7631" title="ORCID" aria-label="ORCID">
+              <i class="ai ai-orcid" aria-hidden="true"></i>
+            </a>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Navigation -->
+    <nav class="tab-nav" aria-label="Sections">
+      <div class="tab-nav-inner" role="tablist">
+        <div class="tab-indicator" aria-hidden="true"></div>
+        <button class="tab-btn active"
+                role="tab"
+                id="tab-btn-overview"
+                data-tab="overview"
+                aria-selected="true"
+                aria-controls="tab-overview"
+                tabindex="0">Overview</button>
+        <button class="tab-btn"
+                role="tab"
+                id="tab-btn-research"
+                data-tab="research"
+                aria-selected="false"
+                aria-controls="tab-research"
+                tabindex="-1">Research</button>
+        <button class="tab-btn"
+                role="tab"
+                id="tab-btn-projects"
+                data-tab="projects"
+                aria-selected="false"
+                aria-controls="tab-projects"
+                tabindex="-1">Projects</button>
+        <button class="tab-btn"
+                role="tab"
+                id="tab-btn-cv"
+                data-tab="cv"
+                aria-selected="false"
+                aria-controls="tab-cv"
+                tabindex="-1">CV</button>
+      </div>
+    </nav>
+
+    <!-- Year scrubber (Research tab only, desktop only) -->
+    <nav class="year-slider" aria-label="Jump to year" id="year-slider">
+      <ol class="year-slider-list">
+        
+        <li class="year-slider-li">
+          <a href="#year-2025"
+             class="year-slider-item"
+             data-year="2025"
+             aria-current="false">
+            <span class="year-slider-dot" aria-hidden="true"></span>
+            <span class="year-slider-label">2025</span>
+          </a>
+        </li>
+        
+        <li class="year-slider-li">
+          <a href="#year-2024"
+             class="year-slider-item"
+             data-year="2024"
+             aria-current="false">
+            <span class="year-slider-dot" aria-hidden="true"></span>
+            <span class="year-slider-label">2024</span>
+          </a>
+        </li>
+        
+        <li class="year-slider-li">
+          <a href="#year-2022"
+             class="year-slider-item"
+             data-year="2022"
+             aria-current="false">
+            <span class="year-slider-dot" aria-hidden="true"></span>
+            <span class="year-slider-label">2022</span>
+          </a>
+        </li>
+        
+        <li class="year-slider-li">
+          <a href="#year-2021"
+             class="year-slider-item"
+             data-year="2021"
+             aria-current="false">
+            <span class="year-slider-dot" aria-hidden="true"></span>
+            <span class="year-slider-label">2021</span>
+          </a>
+        </li>
+        
+        <li class="year-slider-li">
+          <a href="#year-2020"
+             class="year-slider-item"
+             data-year="2020"
+             aria-current="false">
+            <span class="year-slider-dot" aria-hidden="true"></span>
+            <span class="year-slider-label">2020</span>
+          </a>
+        </li>
+        
+      </ol>
+    </nav>
+
+    <!-- Tab Content -->
+    <main class="tab-content-wrapper">
+
+      <!-- ==================== OVERVIEW TAB ==================== -->
+      <div class="tab-content active" id="tab-overview" role="tabpanel" aria-labelledby="tab-btn-overview" tabindex="0">
+
+        <section class="content-section">
+          <div class="about-intro">
+            <p>
+              I am an experimental computer systems researcher at the <a href="https://hcs.snu.ac.kr">Human-Centered Computer Systems Lab</a>.
+              I envision future applications unconstrained by existing technologies, and realize them by building the supporting systems that make those futures executable &mdash; spanning <a href="#" class="tab-link" data-tab="research" data-scroll="band">mobile on-device intelligence</a>, <a href="#" class="tab-link" data-tab="research" data-scroll="maestro">mixed reality frameworks</a>, and spatial telepresence across separate physical spaces.
+              My trajectory here has not been linear: I started as a proud <a href="https://www.digipen.edu/showcase/news/introducing-the-digipen-dragons">DigiPen Dragons</a>, professional game developer working on <a href="https://education.minecraft.net">Minecraft: Education Edition</a> at Microsoft Studios, then turned to medical imaging and 3D vision researcher during my master's.
+            </p>
+            <p>
+              Most of computing pulls people into screens. My research asks the opposite &mdash; how spatial computing can extend computation into physical space, so that it augments rather than displaces our experience of the real world.
+              Realizing this requires a new kind of software platform: one that moves beyond passively sensing or simulating space, toward systems that interact with users and actuate the environment itself.
+              I see this as a bridge between computer systems and architecture &mdash; where built environments are no longer static backgrounds but dynamic structures, co-designed with the computational layer that inhabits them.
+            </p>
+            <p>
+              Outside of research, I'm an avid yogi who enjoys getting lost in the city and in nature.
+            </p>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ==================== RESEARCH TAB ==================== -->
+      <div class="tab-content" id="tab-research" role="tabpanel" aria-labelledby="tab-btn-research" tabindex="0" hidden>
+
+        
+        <section class="content-section year-section" id="year-2025">
+          <h2 class="year-heading">2025</h2>
+
+          
+          <div class="pub-entry" id="pub-explorable-ideas-externalizing-ideas-as-explorable-environments" style="--i: 0;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/explorable_ideas.png" alt="Explorable Ideas: Externalizing Ideas as Explorable Environments">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-preprint">Preprint</span>
+              <h3 class="pub-title"><a href="https://arxiv.org/pdf/2512.17017">Explorable Ideas: Externalizing Ideas as Explorable Environments</a></h3>
+              <p class="pub-authors">Euijun Jung, <strong>Jingyu Lee</strong>, Minji Kim, Youngki Lee</p>
+              <p class="pub-venue">arXiv preprint, 2025.</p>
+              <div class="pub-links">
+                
+                <a href="https://arxiv.org/pdf/2512.17017" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@article{jung2025explorable, title={Explorable Ideas: Externalizing Ideas as Explorable Environments}, author={Jung, Euijun and Lee, Jingyu and Kim, Minji and Lee, Youngki}, journal={arXiv preprint arXiv:2512.17017}, year={2025} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.48550/arXiv.2512.17017" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+
+        </section>
+        
+        <section class="content-section year-section" id="year-2024">
+          <h2 class="year-heading">2024</h2>
+
+          
+          <div class="pub-entry" id="pub-logan-loss-tolerant-live-video-analytics-system" style="--i: 0;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/mobicom24.png" alt="Logan: Loss-tolerant Live Video Analytics System">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-conference">Conference</span>
+              <h3 class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3636534.3690695">Logan: Loss-tolerant Live Video Analytics System</a></h3>
+              <p class="pub-authors">Kichang Yang, Minkyung Jeong, Juheon Yi, <strong>Jingyu Lee</strong>, Kyungsoo Park, Youngki Lee</p>
+              <p class="pub-venue">Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.</p>
+              <div class="pub-links">
+                
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3636534.3690695" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@inproceedings{yang2024logan, title={Logan: Loss-tolerant Live Video Analytics System}, author={Yang, Kichang and Jeong, Minkyung and Yi, Juheon and Lee, Jingyu and Park, KyoungSoo and Lee, Youngki}, booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking}, pages={1314--1329}, year={2024} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1145/3636534.3690695" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="pub-entry" id="pub-maestro-the-analysis-simulation-integrated-framework-for-mixed-reality" style="--i: 1;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/mobisys24.png" alt="Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-conference">Conference</span>
+              <h3 class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3643832.3661891">Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality</a></h3>
+              <p class="pub-authors"><strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee</p>
+              <p class="pub-venue">Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services, 2024.</p>
+              <div class="pub-links">
+                
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3643832.3661891" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@inproceedings{lee2024maestro, title={Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality}, author={Lee, Jingyu and Kim, Hyunsoo and Kim, Minjae and Chun, Byung-Gon and Lee, Youngki}, booktitle={Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services}, pages={99--112}, year={2024} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1145/3643832.3661891" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="pub-entry" id="pub-poster-xrman-towards-real-time-hand-object-pose-tracking-in-extended-reality" style="--i: 2;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/mobicom24_poster.png" alt="Poster: XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-poster">Poster</span>
+              <h3 class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3636534.3697422">Poster: XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality</a></h3>
+              <p class="pub-authors">Dongho Han, <strong>Jingyu Lee</strong>, Minjae Kim, and Youngki Lee</p>
+              <p class="pub-venue">Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.</p>
+              <div class="pub-links">
+                
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3636534.3697422" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@inproceedings{han2024xrman, title={XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality}, author={Han, Dongho and Lee, Jingyu and Kim, Minjae and Lee, Youngki}, booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking}, pages={1575--1577}, year={2024} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1145/3636534.3697422" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+
+        </section>
+        
+        <section class="content-section year-section" id="year-2022">
+          <h2 class="year-heading">2022</h2>
+
+          
+          <div class="pub-entry" id="pub-band-coordinated-multi-dnn-inference-on-heterogeneous-mobile-processors" style="--i: 0;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/mobisys22.png" alt="Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-conference">Conference</span>
+              <h3 class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3498361.3538948">Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</a></h3>
+              <p class="pub-authors">Joo Seong Jeong*, <strong>Jingyu Lee*</strong>, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngki Lee, and Byung-Gon Chun</p>
+              <p class="pub-venue">Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services, 2022.</p>
+              <div class="pub-links">
+                
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3498361.3538948" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                <a href="https://band.snu.ac.kr" class="pub-link" target="_blank" rel="noopener">Code</a>
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@inproceedings{jeonglee2022band, title={Band: coordinated multi-dnn inference on heterogeneous mobile processors}, author={Jeong, Joo Seong and Lee, Jingyu and Kim, Donghyun and Jeon, Changmin and Jeong, Changjin and Lee, Youngki and Chun, Byung-Gon}, booktitle={Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services}, pages={235--247}, year={2022} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1145/3498361.3538948" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+
+        </section>
+        
+        <section class="content-section year-section" id="year-2021">
+          <h2 class="year-heading">2021</h2>
+
+          
+          <div class="pub-entry" id="pub-liver-segmentation-in-abdominal-ct-images-via-auto-context-neural-network-and-self-supervised-contour-attention" style="--i: 0;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/aim21.png" alt="Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-Supervised Contour Attention">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-journal">Journal</span>
+              <h3 class="pub-title"><a href="https://arxiv.org/pdf/2002.05895.pdf">Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-Supervised Contour Attention</a></h3>
+              <p class="pub-authors">Minyoung Chung, <strong>Jingyu Lee</strong>, Sanguk Park, Chae Eun Lee, Jeongjin Lee, and Yeong-Gil Shin</p>
+              <p class="pub-venue">Artificial Intelligence in Medicine, 2021.</p>
+              <div class="pub-links">
+                
+                <a href="https://arxiv.org/pdf/2002.05895.pdf" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@article{chung2021liver, title={Liver segmentation in abdominal CT images via auto-context neural network and self-supervised contour attention}, author={Minyoung Chung and Lee, Jingyu and Park, Sanguk and Lee, Chae Eun and Lee, Jeongjin and Shin, Yeong-Gil}, journal={Artificial Intelligence in Medicine}, volume={113}, pages={102023}, year={2021}, publisher={Elsevier} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1016/j.artmed.2021.102023" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="pub-entry" id="pub-parallelfusion-towards-maximum-utilization-of-mobile-gpu-for-dnn-inference" style="--i: 1;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/emdl21.png" alt="ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-workshop">Workshop</span>
+              <h3 class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3469116.3470014">ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference</a></h3>
+              <p class="pub-authors"><strong>Jingyu Lee</strong>, Yunxin Liu, Youngki Lee</p>
+              <p class="pub-venue">Proceedings of the 5th International Workshop on Embedded and Mobile Deep Learning (in conjunction with MobiSys), 2021.</p>
+              <div class="pub-links">
+                
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3469116.3470014" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@inproceedings{lee2021parallelfusion, title={ParallelFusion: towards maximum utilization of mobile GPU for DNN inference}, author={Lee, Jingyu and Liu, Yunxin and Lee, Youngki}, booktitle={Proceedings of the 5th International Workshop on Embedded and Mobile Deep Learning} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1145/3469116.3470014" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+
+        </section>
+        
+        <section class="content-section year-section" id="year-2020">
+          <h2 class="year-heading">2020</h2>
+
+          
+          <div class="pub-entry" id="pub-automatic-registration-between-dental-cone-beam-ct-and-scanned-surface-via-deep-pose-regression-neural-networks-and-clustered-similarities" style="--i: 0;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/tmi20.png" alt="Automatic Registration Between Dental Cone-Beam CT and Scanned Surface via Deep Pose Regression Neural Networks and Clustered Similarities">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-journal">Journal</span>
+              <h3 class="pub-title"><a href="https://arxiv.org/pdf/1907.12250.pdf">Automatic Registration Between Dental Cone-Beam CT and Scanned Surface via Deep Pose Regression Neural Networks and Clustered Similarities</a></h3>
+              <p class="pub-authors">Minyoung Chung, <strong>Jingyu Lee</strong>, Wisoo Song, Youngchan Song, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin</p>
+              <p class="pub-venue">IEEE Transactions on Medical Imaging, 2020.</p>
+              <div class="pub-links">
+                
+                <a href="https://arxiv.org/pdf/1907.12250.pdf" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@article{chung2020automatic, title={Automatic registration between dental cone-beam CT and scanned surface via deep pose regression neural networks and clustered similarities}, author={Minyoung Chung and Lee, Jingyu and Song, Wisoo and Song, Youngchan and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil}, journal={IEEE Transactions on Medical Imaging}, volume={39}, number={12}, pages={3900--3909}, year={2020}, publisher={IEEE} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1109/TMI.2020.3035361" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="pub-entry" id="pub-deeply-self-supervised-contour-embedded-neural-network-applied-to-liver-segmentation" style="--i: 1;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/cmpb20.png" alt="Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-journal">Journal</span>
+              <h3 class="pub-title"><a href="https://arxiv.org/pdf/1808.00739.pdf">Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation</a></h3>
+              <p class="pub-authors">Minyoung Chung, <strong>Jingyu Lee</strong>, Minkyung Lee, Jeongjin Lee, and Yeong-Gil Shin</p>
+              <p class="pub-venue">Computer Methods and Programs in Biomedicine, 2020.</p>
+              <div class="pub-links">
+                
+                <a href="https://arxiv.org/pdf/1808.00739.pdf" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@article{chung2020deeply, title={Deeply self-supervised contour embedded neural network applied to liver segmentation}, author={Minyoung Chung and Lee, Jingyu and Lee, Minkyung and Lee, Jeongjin and Shin, Yeong-Gil}, journal={Computer methods and programs in biomedicine}, volume={192}, pages={105447}, year={2020}, publisher={Elsevier} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1016/j.cmpb.2020.105447" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="pub-entry" id="pub-pose-aware-instance-segmentation-framework-from-cone-beam-ct-images-for-tooth-segmentation" style="--i: 2;">
+            
+            <div class="pub-teaser">
+              <img src="./assets/img/cbm20.png" alt="Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation">
+            </div>
+            
+            <div class="pub-body">
+              <span class="pub-type-tag pub-type-journal">Journal</span>
+              <h3 class="pub-title"><a href="https://arxiv.org/pdf/2002.02143.pdf">Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation</a></h3>
+              <p class="pub-authors">Minyoung Chung, Minkyung Lee, Jioh Hong, Sanguk Park, Jusang Lee, <strong>Jingyu Lee</strong>, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin</p>
+              <p class="pub-venue">Computers in Biology and Medicine, 2020.</p>
+              <div class="pub-links">
+                
+                <a href="https://arxiv.org/pdf/2002.02143.pdf" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                
+                
+                
+                
+                <button type="button" class="pub-link" data-bibtex="@article{chung2020pose, title={Pose-aware instance segmentation framework from cone beam CT images for tooth segmentation}, author={Minyoung Chung and Lee, Minkyung and Hong, Jioh and Park, Sanguk and Lee, Jusang and Lee, Jingyu and Yang, Il-Hyung and Lee, Jeongjin and Shin, Yeong-Gil}, journal={Computers in Biology and Medicine}, volume={120}, pages={103720}, year={2020}, publisher={Elsevier} }">BibTeX</button>
+                
+                
+                <a href="https://doi.org/10.1016/j.compbiomed.2020.103720" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+
+        </section>
+        
+
+      </div>
+
+      <!-- ==================== PROJECTS TAB ==================== -->
+      <div class="tab-content" id="tab-projects" role="tabpanel" aria-labelledby="tab-btn-projects" tabindex="0" hidden>
+
+        <section class="content-section">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            
+            <div class="card card-project" style="--i: 0;">
+              
+              <div class="project-image">
+                <img src="./assets/img/project/band.png" alt="Band">
+              </div>
+              
+              <div class="project-details">
+                <h3 class="project-title">
+                  
+                  <a href="https://band.snu.ac.kr">Band</a>
+                  
+                </h3>
+                
+                <p class="project-role">Project Leader & Main Developer</p>
+                
+                <p class="project-summary">Open-source Deep-Learning Framework for Heterogeneous Mobile Processors</p>
+                
+                <div class="pub-links">
+                  
+                  <a href="https://band.snu.ac.kr" class="pub-link" target="_blank" rel="noopener">Project</a>
+                  
+                  
+                  <a href="https://github.com/mrsnu/band" class="pub-link" target="_blank" rel="noopener">Code</a>
+                  
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="card card-project" style="--i: 1;">
+              
+              <div class="project-image">
+                <img src="./assets/img/project/somnus.png" alt="Somnus">
+              </div>
+              
+              <div class="project-details">
+                <h3 class="project-title">
+                  
+                  <a href="https://games.digipen.edu/games/somnus">Somnus</a>
+                  
+                </h3>
+                
+                <p class="project-role">Technical Director (Team of 4 programmers, 1 designer, 4 artists and 3 sound designers)</p>
+                
+                <p class="project-summary">3D puzzle platformer that utilizes perspective illusions to manipulate the environment</p>
+                
+                <p class="project-highlight">2016 E3 College Game Competition Finalist (Top 5)</p>
+                
+                <div class="pub-links">
+                  
+                  <a href="https://games.digipen.edu/games/somnus" class="pub-link" target="_blank" rel="noopener">Project</a>
+                  
+                  
+                  
+                  
+                  
+                  <a href="https://www.youtube.com/watch?v=s_STLf7uhak&feature=emb_title" class="pub-link" target="_blank" rel="noopener">Video</a>
+                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="card card-project" style="--i: 2;">
+              
+              <div class="project-image">
+                <img src="./assets/img/project/physics.png" alt="Rigidbody Constraint-based Physics Simulation">
+              </div>
+              
+              <div class="project-details">
+                <h3 class="project-title">
+                  
+                  Rigidbody Constraint-based Physics Simulation
+                  
+                </h3>
+                
+                <p class="project-role">Project Leader (Solo Project)</p>
+                
+                <p class="project-summary">Rigidbody constraint-based physics simulation built from scratch using C++</p>
+                
+                <div class="pub-links">
+                  
+                  
+                  
+                  
+                  
+                  <a href="https://www.youtube.com/watch?v=S31Hpw_fuUE&feature=emb_title" class="pub-link" target="_blank" rel="noopener">Video</a>
+                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="card card-project" style="--i: 3;">
+              
+              <div class="project-image">
+                <img src="./assets/img/project/bomvoid.png" alt="Bomvoid">
+              </div>
+              
+              <div class="project-details">
+                <h3 class="project-title">
+                  
+                  <a href="https://lpk323.wixsite.com/bomvoid">Bomvoid</a>
+                  
+                </h3>
+                
+                <p class="project-role">Technical Director</p>
+                
+                <p class="project-summary">3D third-person view puzzle game built from scratch using C++</p>
+                
+                <div class="pub-links">
+                  
+                  <a href="https://lpk323.wixsite.com/bomvoid" class="pub-link" target="_blank" rel="noopener">Project</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="card card-project" style="--i: 4;">
+              
+              <div class="project-image">
+                <img src="./assets/img/project/musika.jpg" alt="Musika">
+              </div>
+              
+              <div class="project-details">
+                <h3 class="project-title">
+                  
+                  <a href="https://arcade.digipen.edu/games/musika-alpha-demo#.VyGaKzDhCUk">Musika</a>
+                  
+                </h3>
+                
+                <p class="project-role">Gameplay Programmer</p>
+                
+                <p class="project-summary">2D platformer about some notes which have been kicked out of their place in the music sheet by some false notes and want to go back to their place</p>
+                
+                <div class="pub-links">
+                  
+                  <a href="https://arcade.digipen.edu/games/musika-alpha-demo#.VyGaKzDhCUk" class="pub-link" target="_blank" rel="noopener">Project</a>
+                  
+                  
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ==================== BACKGROUND TAB ==================== -->
+      <div class="tab-content" id="tab-cv" role="tabpanel" aria-labelledby="tab-btn-cv" tabindex="0" hidden>
+
+        <section class="content-section">
+          <h2 class="section-title">Education</h2>
+          
+          <div class="card card-education" style="--i: 0;">
+            <div class="card-row">
+              <div>
+                <h3 class="card-title">Ph.D. in Computer Science and Engineering</h3>
+                <p class="card-subtitle">Seoul National University, Seoul, Republic of Korea</p>
+                
+              </div>
+              <span class="card-date">2020 - Present</span>
+            </div>
+          </div>
+          
+          <div class="card card-education" style="--i: 1;">
+            <div class="card-row">
+              <div>
+                <h3 class="card-title">M.S. in Computer Science and Engineering</h3>
+                <p class="card-subtitle">Seoul National University, Seoul, Republic of Korea</p>
+                
+              </div>
+              <span class="card-date">2018 - 2020</span>
+            </div>
+          </div>
+          
+          <div class="card card-education" style="--i: 2;">
+            <div class="card-row">
+              <div>
+                <h3 class="card-title">B.S. in Computer Science in Real-Time Interactive Simulation</h3>
+                <p class="card-subtitle">DigiPen Institute of Technology, Redmond, Washington, USA</p>
+                
+              </div>
+              <span class="card-date">2012 - 2016</span>
+            </div>
+          </div>
+          
+        </section>
+
+        <section class="content-section">
+          <h2 class="section-title">Experience</h2>
+          
+          <div class="card card-experience" style="--i: 0;">
+            <div class="card-row">
+              <div>
+                <h3 class="card-title">Research Intern, Microsoft Research Asia</h3>
+                <p class="card-subtitle">Heterogeneous and Extreme Computing (HEX) group, Beijing, China (Virtual)</p>
+                
+                <p class="card-meta">Advisor: Yunxin Liu & Ting Cao</p>
+                
+                
+                <div class="card-notes">· Deep learning inference acceleration on mobile GPU (<a href='#' class='tab-link' data-tab='research' data-scroll='parallelfusion'>ParallelFusion</a>)</div>
+                
+              </div>
+              <span class="card-date">December 2020 – May 2021</span>
+            </div>
+            
+          </div>
+          
+          <div class="card card-experience" style="--i: 1;">
+            <div class="card-row">
+              <div>
+                <h3 class="card-title">Software Engineer, Microsoft</h3>
+                <p class="card-subtitle">Minecraft Education Edition team, Redmond, Washington, USA</p>
+                
+                
+                <div class="card-notes">· Developed and maintained Minecraft Education & Minecraft Pocket Edition<br />
+ · Developed companion apps (Classroom Mode & Code Connection)<br />
+ · Developed visual programming experiences for K-12 students<br />
+(Hour of Code - Minecraft Designer and Code Builder extensions for Scratch X)</div>
+                
+              </div>
+              <span class="card-date">September 2016 – May 2017</span>
+            </div>
+            
+            <div class="exp-projects">
+              
+              <a href="https://studio.code.org/s/minecraft/lessons/1/levels/1" target="_blank" rel="noopener" class="exp-project-item">
+                <img src="./assets/img/minecraft-activity-designer.png" alt="Hour of Code - Minecraft Designer">
+                
+                <span class="exp-project-badge">Hour of Code - Minecraft Designer</span>
+                
+              </a>
+              
+              <a href="https://apps.microsoft.com/detail/9ppfpg2fg2qb" target="_blank" rel="noopener" class="exp-project-item">
+                <img src="./assets/img/minecraft-codeconnection.jpg" alt="Code Connection">
+                
+                <span class="exp-project-badge">Code Connection for M:EE</span>
+                
+              </a>
+              
+              <a href="https://apps.microsoft.com/detail/9p3q3nfk523q" target="_blank" rel="noopener" class="exp-project-item">
+                <img src="./assets/img/minecraft-classroommode.jpg" alt="Classroom Mode">
+                
+                <span class="exp-project-badge">Classroom Mode for M:EE</span>
+                
+              </a>
+              
+            </div>
+            
+          </div>
+          
+        </section>
+
+        <section class="content-section">
+          <h2 class="section-title">Services</h2>
+          <div class="card card-service" style="--i: 0;">
+            <h3 class="card-title">Journal Reviewers</h3>
+            <ul class="service-list">
+              <li><a href="https://www.ieeetmi.org/">IEEE Transactions on Medical Imaging (TMI)</a></li>
+              <li><a href="https://vtsociety.org/publication/ieee-transactions-vehicular-technology">IEEE Transactions on Vehicular Technology (TVT)</a></li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+    </main>
+
+    <!-- Live region for screen-reader announcements -->
+    <div id="sr-live" class="visually-hidden" aria-live="polite" aria-atomic="true"
+         style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;"></div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>&copy; Jingyu Lee 2026</p>
+    </footer>
+
+    <script>
+    (function () {
+      'use strict';
+
+      var tabButtons = Array.prototype.slice.call(document.querySelectorAll('.tab-btn'));
+      var tabPanels  = Array.prototype.slice.call(document.querySelectorAll('.tab-content'));
+      var indicator  = document.querySelector('.tab-indicator');
+      var srLive     = document.getElementById('sr-live');
+
+      // Move the sliding indicator under the active tab
+      function moveIndicator(activeBtn) {
+        if (!indicator || !activeBtn) return;
+        indicator.style.left = activeBtn.offsetLeft + 'px';
+        indicator.style.width = activeBtn.offsetWidth + 'px';
+      }
+
+      // Re-trigger entrance animations when a panel becomes visible
+      function reAnimate(container) {
+        var items = container.querySelectorAll('.card, .pub-entry');
+        items.forEach(function (el) {
+          el.style.animation = 'none';
+          // Force reflow so the animation replays.
+          /* eslint-disable no-unused-expressions */
+          el.offsetHeight;
+          /* eslint-enable no-unused-expressions */
+          el.style.animation = '';
+        });
+      }
+
+      function activateTab(btn, opts) {
+        opts = opts || {};
+        if (!btn) return;
+        var targetId = 'tab-' + btn.dataset.tab;
+
+        tabButtons.forEach(function (b) {
+          var isActive = b === btn;
+          b.classList.toggle('active', isActive);
+          b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          b.setAttribute('tabindex', isActive ? '0' : '-1');
+        });
+
+        tabPanels.forEach(function (p) {
+          var isActive = p.id === targetId;
+          p.classList.toggle('active', isActive);
+          if (isActive) {
+            p.removeAttribute('hidden');
+          } else {
+            p.setAttribute('hidden', '');
+          }
+        });
+
+        // Expose the active tab on <body> so other UI (e.g. year slider) can react
+        document.body.setAttribute('data-active-tab', btn.dataset.tab);
+
+        var activePanel = document.getElementById(targetId);
+        if (activePanel) reAnimate(activePanel);
+        moveIndicator(btn);
+
+        if (srLive) srLive.textContent = btn.textContent.trim() + ' tab selected';
+
+        if (opts.focus) btn.focus();
+        if (opts.scroll !== false) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }
+
+      // Seed the initial tab state on <body>
+      var initiallyActive = document.querySelector('.tab-btn.active');
+      if (initiallyActive) {
+        document.body.setAttribute('data-active-tab', initiallyActive.dataset.tab);
+      }
+
+      // Click + keyboard handling for tabs
+      tabButtons.forEach(function (btn, idx) {
+        btn.addEventListener('click', function () {
+          activateTab(btn);
+        });
+
+        btn.addEventListener('keydown', function (e) {
+          var next;
+          switch (e.key) {
+            case 'ArrowRight':
+              next = tabButtons[(idx + 1) % tabButtons.length];
+              e.preventDefault();
+              activateTab(next, { focus: true, scroll: false });
+              break;
+            case 'ArrowLeft':
+              next = tabButtons[(idx - 1 + tabButtons.length) % tabButtons.length];
+              e.preventDefault();
+              activateTab(next, { focus: true, scroll: false });
+              break;
+            case 'Home':
+              e.preventDefault();
+              activateTab(tabButtons[0], { focus: true, scroll: false });
+              break;
+            case 'End':
+              e.preventDefault();
+              activateTab(tabButtons[tabButtons.length - 1], { focus: true, scroll: false });
+              break;
+          }
+        });
+      });
+
+      // In-copy links that switch tab and optionally scroll to an anchor
+      document.addEventListener('click', function (e) {
+        var link = e.target.closest('.tab-link');
+        if (!link) return;
+        e.preventDefault();
+        var targetBtn = document.querySelector('.tab-btn[data-tab="' + link.dataset.tab + '"]');
+        if (!targetBtn) return;
+        activateTab(targetBtn);
+        var scrollTo = link.dataset.scroll;
+        if (scrollTo) {
+          setTimeout(function () {
+            var el = document.querySelector('[id*="' + scrollTo + '"]');
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 400);
+        }
+      });
+
+      window.addEventListener('load', function () {
+        moveIndicator(document.querySelector('.tab-btn.active'));
+      });
+      window.addEventListener('resize', function () {
+        moveIndicator(document.querySelector('.tab-btn.active'));
+      });
+
+      // Year scrubber (Research tab): highlight the year currently in view
+      var slider = document.getElementById('year-slider');
+      if (slider) {
+        var sliderItems = Array.prototype.slice.call(
+          slider.querySelectorAll('.year-slider-item')
+        );
+        var yearSections = Array.prototype.slice.call(
+          document.querySelectorAll('.year-section')
+        );
+
+        function setActiveYear(year) {
+          sliderItems.forEach(function (item) {
+            item.setAttribute(
+              'aria-current',
+              item.dataset.year === String(year) ? 'true' : 'false'
+            );
+          });
+        }
+
+        if ('IntersectionObserver' in window && yearSections.length) {
+          var yearObserver = new IntersectionObserver(
+            function (entries) {
+              // Only react when the Research tab is actually visible
+              if (document.body.getAttribute('data-active-tab') !== 'research') return;
+              // Of all intersecting years, pick the one closest to the viewport top
+              var visible = entries
+                .filter(function (e) { return e.isIntersecting; })
+                .sort(function (a, b) {
+                  return a.boundingClientRect.top - b.boundingClientRect.top;
+                });
+              if (visible.length) {
+                var year = visible[0].target.id.replace('year-', '');
+                setActiveYear(year);
+              }
+            },
+            {
+              // Section is "active" when it's in the top third of the viewport
+              rootMargin: '-15% 0px -60% 0px',
+              threshold: 0,
+            }
+          );
+          yearSections.forEach(function (s) { yearObserver.observe(s); });
+        }
+
+        // Smooth-scroll on click
+        sliderItems.forEach(function (item) {
+          item.addEventListener('click', function (e) {
+            e.preventDefault();
+            var target = document.getElementById('year-' + item.dataset.year);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              setActiveYear(item.dataset.year);
+            }
+          });
+        });
+
+        // Default to the first (newest) year until scroll establishes one
+        if (sliderItems.length) {
+          setActiveYear(sliderItems[0].dataset.year);
+        }
+      }
+
+      // BibTeX copy — wire up buttons with [data-bibtex]
+      function showToast(message) {
+        var toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.setAttribute('role', 'status');
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        setTimeout(function () { toast.classList.add('is-leaving'); }, 1800);
+        setTimeout(function () { toast.remove(); }, 2200);
+      }
+
+      document.querySelectorAll('.pub-link[data-bibtex]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var text = btn.getAttribute('data-bibtex') || '';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(
+              function () { showToast('BibTeX copied'); },
+              function () { showToast('Copy failed'); }
+            );
+          } else {
+            // Fallback
+            var ta = document.createElement('textarea');
+            ta.value = text;
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); showToast('BibTeX copied'); }
+            catch (err) { showToast('Copy failed'); }
+            ta.remove();
+          }
+        });
+      });
+    })();
+    </script>
+
+    
+  </body>
+</html>
