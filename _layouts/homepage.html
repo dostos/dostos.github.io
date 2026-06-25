@@ -140,7 +140,7 @@
           <div class="about-intro">
             <p>
               I am an experimental computer systems researcher at the <a href="https://hcs.snu.ac.kr">Human-Centered Computer Systems Lab</a>.
-              I envision future applications unconstrained by existing technologies, and realize them by building the supporting systems that make those futures executable &mdash; spanning <a href="#" class="tab-link" data-tab="research" data-scroll="band">mobile on-device intelligence</a>, <a href="#" class="tab-link" data-tab="research" data-scroll="maestro">mixed reality frameworks</a>, and spatial telepresence across separate physical spaces.
+              I envision future applications unconstrained by existing technologies, and realize them by building the supporting systems that make those futures executable &mdash; spanning mobile on-device intelligence, mixed reality frameworks, and spatial telepresence across separate physical spaces.
               My trajectory here has not been linear: I started as a proud <a href="https://www.digipen.edu/showcase/news/introducing-the-digipen-dragons">DigiPen Dragons</a>, professional game developer working on <a href="https://education.minecraft.net">Minecraft: Education Edition</a> at Microsoft Studios, then turned to medical imaging and 3D vision researcher during my master's.
             </p>
             <p>
@@ -165,16 +165,12 @@
 
           {% for pub in year_group.papers %}
           <div class="pub-entry" id="pub-{{ pub.title | slugify }}" style="--i: {{ forloop.index0 }};">
-            {% if pub.image %}
-            <div class="pub-teaser">
-              <img src="{{ pub.image }}" alt="{{ pub.title }}">
-            </div>
-            {% endif %}
-            <div class="pub-body">
-              <span class="pub-type-tag pub-type-{{ pub.type | downcase }}">{{ pub.type }}</span>
-              <h3 class="pub-title"><a href="{{ pub.pdf }}">{{ pub.title }}</a></h3>
-              <p class="pub-authors">{{ pub.authors }}</p>
-              <p class="pub-venue">{{ pub.venue }}</p>
+            <div class="pub-aside">
+              {% if pub.image %}
+              <div class="pub-teaser">
+                <img src="{{ pub.image }}" alt="{{ pub.title }}">
+              </div>
+              {% endif %}
               <div class="pub-links">
                 {% if pub.pdf %}
                 <a href="{{ pub.pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>
@@ -192,6 +188,12 @@
                 <a href="https://doi.org/{{ pub.doi }}" class="pub-link" target="_blank" rel="noopener">DOI</a>
                 {% endif %}
               </div>
+            </div>
+            <div class="pub-body">
+              {% if pub.venue_short %}<span class="pub-venue-tag">{% if pub.provider %}{{ pub.provider }} {% endif %}{{ pub.venue_short }}</span>{% endif %}
+              <h3 class="pub-title"><a href="{{ pub.pdf }}">{{ pub.title }}</a></h3>
+              <p class="pub-authors">{{ pub.authors }}</p>
+              <p class="pub-venue">{{ pub.venue }}</p>
               {% if pub.notes %}
               <p class="pub-note">{{ pub.notes }}</p>
               {% endif %}

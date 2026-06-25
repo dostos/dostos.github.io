@@ -3,6 +3,7 @@
     - title: "How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior"
       authors: Hyunsoo Kim, <strong>Jingyu Lee</strong>, Rajesh Balan, Youngki Lee
       venue_short: ISMAR
+      provider: IEEE
       venue: Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2026.
       type: Conference
       image: ./assets/img/ismar26.png
@@ -10,16 +11,19 @@
       bibtex: "@inproceedings{kim2026physicsfidelity,
   title={How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior},
   author={Kim, Hyunsoo and Lee, Jingyu and Balan, Rajesh and Lee, Youngki},
-  booktitle={Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+  booktitle={Proceedings of the IEEE International Symposium on Mixed and Augmented Reality},
   year={2026}
 }"
 
     - title: "Probing Ambient Co-Presence as Social Infrastructure: First Encounters with Connected Rooms"
       authors: <strong>Jingyu Lee</strong>, Youngki Lee
       venue_short: SocialSys
+      provider: ACM
       venue: Proceedings of the 4th International Workshop on Social Infrastructure Systems (SocialSys), co-located with ACM BuildSys, 2026.
       type: Workshop
       image: ./assets/img/socialsys26.png
+      pdf: https://dl.acm.org/doi/pdf/10.1145/3765611.3815495
+      doi: 10.1145/3765611.3815495
       bibtex: "@inproceedings{lee2026copresence,
   title={Probing Ambient Co-Presence as Social Infrastructure: First Encounters with Connected Rooms},
   author={Lee, Jingyu and Lee, Youngki},
@@ -49,6 +53,7 @@
     - title: "Logan: Loss-tolerant Live Video Analytics System"
       authors: Kichang Yang, Minkyung Jeong, Juheon Yi, <strong>Jingyu Lee</strong>, Kyungsoo Park, Youngki Lee
       venue_short: MobiCom
+      provider: ACM
       venue: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.
       type: Conference
       image: ./assets/img/mobicom24.png
@@ -65,6 +70,7 @@
     - title: "Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality"
       authors: <strong>Jingyu Lee</strong>, Hyunsoo Kim, Minjae Kim, Byung-Gon Chun, and Youngki Lee
       venue_short: MobiSys
+      provider: ACM
       venue: Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services, 2024.
       type: Conference
       pdf: https://dl.acm.org/doi/pdf/10.1145/3643832.3661891
@@ -81,6 +87,7 @@
     - title: "Poster: XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality"
       authors: Dongho Han, <strong>Jingyu Lee</strong>, Minjae Kim, and Youngki Lee
       venue_short: MobiCom
+      provider: ACM
       venue: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.
       type: Poster
       image: ./assets/img/mobicom24_poster.png
@@ -100,6 +107,7 @@
     - title: "Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors"
       authors: Joo Seong Jeong*, <strong>Jingyu Lee*</strong>, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngki Lee, and Byung-Gon Chun
       venue_short: MobiSys
+      provider: ACM
       venue: Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services, 2022.
       type: Conference
       pdf: https://dl.acm.org/doi/pdf/10.1145/3498361.3538948
@@ -119,6 +127,7 @@
     - title: "Liver Segmentation in Abdominal CT Images via Auto-Context Neural Network and Self-Supervised Contour Attention"
       authors: Minyoung Chung, <strong>Jingyu Lee</strong>, Sanguk Park, Chae Eun Lee, Jeongjin Lee, and Yeong-Gil Shin
       venue_short: AIM
+      provider: Elsevier
       venue: Artificial Intelligence in Medicine, 2021.
       type: Journal
       pdf: https://arxiv.org/pdf/2002.05895.pdf
@@ -137,6 +146,7 @@
     - title: "ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference"
       authors: <strong>Jingyu Lee</strong>, Yunxin Liu, Youngki Lee
       venue_short: EMDL
+      provider: ACM
       venue: Proceedings of the 5th International Workshop on Embedded and Mobile Deep Learning (in conjunction with MobiSys), 2021.
       type: Workshop
       pdf: https://dl.acm.org/doi/pdf/10.1145/3469116.3470014
@@ -153,6 +163,7 @@
     - title: "Automatic Registration Between Dental Cone-Beam CT and Scanned Surface via Deep Pose Regression Neural Networks and Clustered Similarities"
       authors: Minyoung Chung, <strong>Jingyu Lee</strong>, Wisoo Song, Youngchan Song, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
       venue_short: TMI
+      provider: IEEE
       venue: IEEE Transactions on Medical Imaging, 2020.
       type: Journal
       pdf: https://arxiv.org/pdf/1907.12250.pdf
@@ -172,6 +183,7 @@
     - title: "Deeply Self-Supervised Contour Embedded Neural Network Applied to Liver Segmentation"
       authors: Minyoung Chung, <strong>Jingyu Lee</strong>, Minkyung Lee, Jeongjin Lee, and Yeong-Gil Shin
       venue_short: CMPB
+      provider: Elsevier
       venue: Computer Methods and Programs in Biomedicine, 2020.
       type: Journal
       pdf: https://arxiv.org/pdf/1808.00739.pdf
@@ -190,6 +202,7 @@
     - title: "Pose-Aware Instance Segmentation Framework from Cone Beam CT Images for Tooth Segmentation"
       authors: Minyoung Chung, Minkyung Lee, Jioh Hong, Sanguk Park, Jusang Lee, <strong>Jingyu Lee</strong>, Il-Hyung Yang, Jeongjin Lee, and Yeong-Gil Shin
       venue_short: CBM
+      provider: Elsevier
       venue: Computers in Biology and Medicine, 2020.
       type: Journal
       pdf: https://arxiv.org/pdf/2002.02143.pdf

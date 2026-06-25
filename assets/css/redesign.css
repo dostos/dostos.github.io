@@ -10,7 +10,7 @@
   --color-surface: #FAFAF8;
   --color-text: #000000;
   --color-text-secondary: #666666;
-  --color-text-tertiary: #8A6A5A;
+  --color-text-tertiary: #74564A;
 
   /* Brand */
   --color-accent: #5C4033;
@@ -556,9 +556,9 @@ body[data-active-tab="research"] .year-slider {
 
 .pub-entry {
   display: flex;
-  gap: 22px;
+  gap: 18px;
   align-items: flex-start;
-  padding: var(--space-5) 0;
+  padding: var(--space-4) 0;
   border-bottom: 1px solid var(--color-border-light);
   opacity: 0;
   animation: cardEnter var(--duration-slow) ease forwards;
@@ -568,14 +568,22 @@ body[data-active-tab="research"] .year-slider {
   border-bottom: none;
 }
 
-.pub-teaser {
+.pub-aside {
   flex-shrink: 0;
-  width: 170px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pub-teaser {
+  width: 100%;
   overflow: hidden;
   border-radius: var(--radius-md);
 }
 .pub-teaser img {
   width: 100%;
+  height: auto;
   display: block;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
@@ -590,27 +598,19 @@ body[data-active-tab="research"] .year-slider {
   min-width: 0;
 }
 
-.pub-type-tag {
+.pub-venue-tag {
   display: inline-block;
   font-size: var(--text-2xs);
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-weight: 600;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  padding: 2px 10px;
-  border-radius: var(--radius-sm);
-  margin-bottom: var(--space-2);
+  color: var(--color-text-tertiary);
+  margin-bottom: 5px;
 }
-
-.pub-type-conference { background: rgba(92, 64, 51, 0.10);  color: var(--color-pub-conference); }
-.pub-type-journal    { background: rgba(212, 88, 74, 0.10); color: var(--color-pub-journal); }
-.pub-type-workshop   { background: rgba(208, 138, 64, 0.12); color: var(--color-pub-workshop); }
-.pub-type-poster     { background: rgba(123, 94, 160, 0.12); color: var(--color-pub-poster); }
-.pub-type-demo       { background: rgba(61, 138, 122, 0.12); color: var(--color-pub-demo); }
-.pub-type-preprint   { background: rgba(91, 142, 196, 0.12); color: var(--color-pub-preprint); }
 
 .pub-title {
   font-size: var(--text-md);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.4;
   margin-bottom: 6px;
   letter-spacing: -0.01em;
@@ -633,7 +633,7 @@ body[data-active-tab="research"] .year-slider {
   font-size: var(--text-sm);
   color: var(--color-text-tertiary);
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   line-height: 1.4;
 }
 
@@ -664,6 +664,16 @@ body[data-active-tab="research"] .year-slider {
   color: #fff;
   border-color: var(--color-accent);
   box-shadow: 0 2px 8px var(--color-accent-shadow);
+}
+
+/* Compact link buttons stacked under the teaser */
+.pub-aside .pub-links {
+  gap: 6px;
+}
+.pub-aside .pub-link {
+  padding: 5px 10px;
+  min-height: 0;
+  font-size: 11.5px;
 }
 
 .pub-note {
@@ -975,8 +985,11 @@ body[data-active-tab="research"] .year-slider {
   .pub-entry {
     flex-direction: column;
   }
-  .pub-teaser {
+  .pub-aside {
     width: 100%;
+    max-width: 280px;
+  }
+  .pub-teaser {
     max-width: 280px;
   }
 
