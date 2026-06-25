@@ -1,3 +1,32 @@
+- year: 2026
+  papers:
+    - title: "How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior"
+      authors: Hyunsoo Kim, <strong>Jingyu Lee</strong>, Rajesh Balan, Youngki Lee
+      venue_short: ISMAR
+      venue: Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2026.
+      type: Conference
+      image: ./assets/img/ismar26.png
+      notes: To appear
+      bibtex: "@inproceedings{kim2026physicsfidelity,
+  title={How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior},
+  author={Kim, Hyunsoo and Lee, Jingyu and Balan, Rajesh and Lee, Youngki},
+  booktitle={Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+  year={2026}
+}"
+
+    - title: "Probing Ambient Co-Presence as Social Infrastructure: First Encounters with Connected Rooms"
+      authors: <strong>Jingyu Lee</strong>, Youngki Lee
+      venue_short: SocialSys
+      venue: Proceedings of the 4th International Workshop on Social Infrastructure Systems (SocialSys), co-located with ACM BuildSys, 2026.
+      type: Workshop
+      image: ./assets/img/socialsys26.png
+      bibtex: "@inproceedings{lee2026copresence,
+  title={Probing Ambient Co-Presence as Social Infrastructure: First Encounters with Connected Rooms},
+  author={Lee, Jingyu and Lee, Youngki},
+  booktitle={Proceedings of the 4th International Workshop on Social Infrastructure Systems (SocialSys), co-located with ACM BuildSys},
+  year={2026}
+}"
+
 - year: 2025
   papers:
     - title: "Explorable Ideas: Externalizing Ideas as Explorable Environments"
