@@ -608,6 +608,11 @@ body[data-active-tab="research"] .year-slider {
   margin-bottom: 5px;
 }
 
+.pub-venue-note {
+  color: var(--color-highlight);
+  font-weight: 700;
+}
+
 .pub-title {
   font-size: var(--text-md);
   font-weight: 600;

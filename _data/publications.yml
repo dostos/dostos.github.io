@@ -31,23 +31,6 @@
   year={2026}
 }"
 
-- year: 2025
-  papers:
-    - title: "Explorable Ideas: Externalizing Ideas as Explorable Environments"
-      authors: Euijun Jung, <strong>Jingyu Lee</strong>, Minji Kim, Youngki Lee
-      venue_short: arXiv
-      venue: "arXiv preprint, 2025."
-      type: Preprint
-      image: ./assets/img/explorable_ideas.png
-      pdf: https://arxiv.org/pdf/2512.17017
-      doi: 10.48550/arXiv.2512.17017
-      bibtex: "@article{jung2025explorable,
-  title={Explorable Ideas: Externalizing Ideas as Explorable Environments},
-  author={Jung, Euijun and Lee, Jingyu and Kim, Minji and Lee, Youngki},
-  journal={arXiv preprint arXiv:2512.17017},
-  year={2025}
-}"
-
 - year: 2024
   papers:
     - title: "Logan: Loss-tolerant Live Video Analytics System"
@@ -83,24 +66,6 @@
   pages={99--112},
   year={2024}
 }"
-
-    - title: "Poster: XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality"
-      authors: Dongho Han, <strong>Jingyu Lee</strong>, Minjae Kim, and Youngki Lee
-      venue_short: MobiCom
-      provider: ACM
-      venue: Proceedings of the 31st Annual International Conference on Mobile Computing and Networking, 2024.
-      type: Poster
-      image: ./assets/img/mobicom24_poster.png
-      pdf: https://dl.acm.org/doi/pdf/10.1145/3636534.3697422
-      doi: 10.1145/3636534.3697422
-      bibtex: "@inproceedings{han2024xrman,
-  title={XRMan: Towards Real-time Hand-Object Pose Tracking in eXtended Reality},
-  author={Han, Dongho and Lee, Jingyu and Kim, Minjae and Lee, Youngki},
-  booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
-  pages={1575--1577},
-  year={2024}
-}"
-
 
 - year: 2022
   papers:
