@@ -10,13 +10,13 @@
   highlight: "2016 E3 College Game Competition Finalist (Top 5)"
   external_link: "https://games.digipen.edu/games/somnus"
   image: "./assets/img/project/somnus.png"
-  role: "Technical Director (Team of 4 programmers, 1 designer, 4 artists and 3 sound designers)"
+  role: "Technical Director"
   url_video: "https://www.youtube.com/watch?v=s_STLf7uhak&feature=emb_title"
 
 - title: Rigidbody Constraint-based Physics Simulation
   summary: Rigidbody constraint-based physics simulation built from scratch using C++
   image: "./assets/img/project/physics.png"
-  role: "Project Leader (Solo Project)"
+  role: "Solo Project"
   url_video: "https://www.youtube.com/watch?v=S31Hpw_fuUE&feature=emb_title"
 
 - title: Bomvoid
@@ -26,7 +26,7 @@
   role: "Technical Director"
 
 - title: Musika
-  summary: 2D platformer about some notes which have been kicked out of their place in the music sheet by some false notes and want to go back to their place
+  summary: 2D platformer about misplaced musical notes finding their way home
   external_link: "https://arcade.digipen.edu/games/musika-alpha-demo#.VyGaKzDhCUk"
   image: "./assets/img/project/musika.jpg"
   role: "Gameplay Programmer"

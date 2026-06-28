@@ -165,36 +165,56 @@
 
           {% for pub in year_group.papers %}
           <div class="pub-entry" id="pub-{{ pub.title | slugify }}" style="--i: {{ forloop.index0 }};">
-            <div class="pub-aside">
-              {% if pub.image %}
-              <div class="pub-teaser">
-                <img src="{{ pub.image }}" alt="{{ pub.title }}">
+            <div class="pub-main">
+              <div class="pub-aside">
+                {% if pub.image %}
+                <div class="pub-teaser">
+                  <img src="{{ pub.image }}" alt="{{ pub.title }}">
+                </div>
+                {% endif %}
+                <div class="pub-links">
+                  {% if pub.pdf %}
+                  <a href="{{ pub.pdf }}" class="pub-link" target="_blank" rel="noopener" title="PDF" aria-label="PDF"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+                  {% endif %}
+                  {% if pub.code %}
+                  <a href="{{ pub.code }}" class="pub-link" target="_blank" rel="noopener" title="Code" aria-label="Code"><i class="fas fa-code" aria-hidden="true"></i></a>
+                  {% endif %}
+                  {% if pub.page %}
+                  <a href="{{ pub.page }}" class="pub-link" target="_blank" rel="noopener" title="Project Page" aria-label="Project Page"><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                  {% endif %}
+                  {% if pub.bibtex %}
+                  <button type="button" class="pub-link" data-bibtex="{{ pub.bibtex | escape }}" title="Copy BibTeX" aria-label="Copy BibTeX"><i class="fas fa-quote-right" aria-hidden="true"></i></button>
+                  {% endif %}
+                  {% if pub.doi %}
+                  <a href="https://doi.org/{{ pub.doi }}" class="pub-link" target="_blank" rel="noopener" title="DOI" aria-label="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
+                  {% endif %}
+                </div>
               </div>
-              {% endif %}
-              <div class="pub-links">
-                {% if pub.pdf %}
-                <a href="{{ pub.pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>
-                {% endif %}
-                {% if pub.code %}
-                <a href="{{ pub.code }}" class="pub-link" target="_blank" rel="noopener">Code</a>
-                {% endif %}
-                {% if pub.page %}
-                <a href="{{ pub.page }}" class="pub-link" target="_blank" rel="noopener">Project Page</a>
-                {% endif %}
-                {% if pub.bibtex %}
-                <button type="button" class="pub-link" data-bibtex="{{ pub.bibtex | escape }}">BibTeX</button>
-                {% endif %}
-                {% if pub.doi %}
-                <a href="https://doi.org/{{ pub.doi }}" class="pub-link" target="_blank" rel="noopener">DOI</a>
-                {% endif %}
+              <div class="pub-body">
+                {% if pub.venue_short %}<span class="pub-venue-tag">{% if pub.provider %}{{ pub.provider }} {% endif %}{{ pub.venue_short }}{% if pub.notes %} <span class="pub-venue-note">({{ pub.notes }})</span>{% endif %}</span>{% endif %}
+                <h3 class="pub-title"><a href="{{ pub.pdf }}">{{ pub.title }}</a></h3>
+                <p class="pub-authors">{{ pub.authors }}</p>
+                <p class="pub-venue">{{ pub.venue }}</p>
               </div>
             </div>
-            <div class="pub-body">
-              {% if pub.venue_short %}<span class="pub-venue-tag">{% if pub.provider %}{{ pub.provider }} {% endif %}{{ pub.venue_short }}{% if pub.notes %} <span class="pub-venue-note">({{ pub.notes }})</span>{% endif %}</span>{% endif %}
-              <h3 class="pub-title"><a href="{{ pub.pdf }}">{{ pub.title }}</a></h3>
-              <p class="pub-authors">{{ pub.authors }}</p>
-              <p class="pub-venue">{{ pub.venue }}</p>
+            {% if pub.research_overview %}
+            {% assign ro = pub.research_overview %}
+            <button type="button" class="pub-overview-toggle" aria-expanded="false" aria-controls="figs-{{ pub.title | slugify }}">
+              <span><i class="fas fa-diagram-project" aria-hidden="true"></i> {{ ro.label | default: "Research overview" }}</span>
+              <i class="fas fa-chevron-down pub-overview-chevron" aria-hidden="true"></i>
+            </button>
+            <div class="pub-figures" id="figs-{{ pub.title | slugify }}">
+              <div class="pub-figures-inner">
+                {% if ro.summary %}<p class="pub-overview-text">{{ ro.summary }}</p>{% endif %}
+                {% for fig in ro.figures %}
+                <figure class="pub-fig">
+                  <img src="{{ fig.src }}" alt="{{ pub.title }}: {{ fig.caption }}" loading="lazy">
+                  {% if fig.caption %}<figcaption>{{ fig.caption }}</figcaption>{% endif %}
+                </figure>
+                {% endfor %}
+              </div>
             </div>
+            {% endif %}
           </div>
           {% endfor %}
 
@@ -217,36 +237,16 @@
               </div>
               {% endif %}
               <div class="project-details">
-                <h3 class="project-title">
-                  {% if project.external_link %}
-                  <a href="{{ project.external_link }}">{{ project.title }}</a>
-                  {% else %}
-                  {{ project.title }}
-                  {% endif %}
-                </h3>
-                {% if project.role %}
-                <p class="project-role">{{ project.role }}</p>
-                {% endif %}
+                <h3 class="project-title">{% if project.external_link %}<a href="{{ project.external_link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+                {% if project.role %}<p class="project-role">{{ project.role }}</p>{% endif %}
                 <p class="project-summary">{{ project.summary }}</p>
-                {% if project.highlight %}
-                <p class="project-highlight">{{ project.highlight }}</p>
-                {% endif %}
+                {% if project.highlight %}<p class="project-highlight">{{ project.highlight }}</p>{% endif %}
                 <div class="pub-links">
-                  {% if project.external_link %}
-                  <a href="{{ project.external_link }}" class="pub-link" target="_blank" rel="noopener">Project</a>
-                  {% endif %}
-                  {% if project.url_code %}
-                  <a href="{{ project.url_code }}" class="pub-link" target="_blank" rel="noopener">Code</a>
-                  {% endif %}
-                  {% if project.url_pdf %}
-                  <a href="{{ project.url_pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>
-                  {% endif %}
-                  {% if project.url_slides %}
-                  <a href="{{ project.url_slides }}" class="pub-link" target="_blank" rel="noopener">Slides</a>
-                  {% endif %}
-                  {% if project.url_video %}
-                  <a href="{{ project.url_video }}" class="pub-link" target="_blank" rel="noopener">Video</a>
-                  {% endif %}
+                  {% if project.external_link %}<a href="{{ project.external_link }}" class="pub-link" target="_blank" rel="noopener">Project</a>{% endif %}
+                  {% if project.url_code %}<a href="{{ project.url_code }}" class="pub-link" target="_blank" rel="noopener">Code</a>{% endif %}
+                  {% if project.url_pdf %}<a href="{{ project.url_pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>{% endif %}
+                  {% if project.url_slides %}<a href="{{ project.url_slides }}" class="pub-link" target="_blank" rel="noopener">Slides</a>{% endif %}
+                  {% if project.url_video %}<a href="{{ project.url_video }}" class="pub-link" target="_blank" rel="noopener">Video</a>{% endif %}
                 </div>
               </div>
             </div>
@@ -263,15 +263,46 @@
           <h2 class="section-title">Education</h2>
           {% for edu in site.data.educations %}
           <div class="card card-education" style="--i: {{ forloop.index0 }};">
-            <div class="card-row">
-              <div>
-                <h3 class="card-title">{{ edu.degree }}</h3>
-                <p class="card-subtitle">{{ edu.institution }}, {{ edu.location }}</p>
-                {% if edu.notes %}
-                <p class="card-note">{{ edu.notes }}</p>
-                {% endif %}
+            <div class="card-logo">
+              {% if edu.logo %}<img src="{{ edu.logo }}" alt="{{ edu.institution }} logo">{% endif %}
+              {% if edu.lab_logo %}<img src="{{ edu.lab_logo }}" alt="{{ edu.lab }} logo" class="card-logo-lab">{% endif %}
+              {% unless edu.logo or edu.lab_logo %}<span class="card-logo-monogram">{{ edu.logo_text }}</span>{% endunless %}
+            </div>
+            <div class="card-body">
+              <div class="card-row">
+                <div>
+                  <h3 class="card-title">{{ edu.degree }}</h3>
+                  <p class="card-subtitle">{% if edu.institution_link %}<a href="{{ edu.institution_link }}" target="_blank" rel="noopener">{{ edu.institution }}</a>{% else %}{{ edu.institution }}{% endif %}</p>
+                  {% if edu.lab %}<p class="card-meta">{% if edu.lab_link %}<a href="{{ edu.lab_link }}" target="_blank" rel="noopener">{{ edu.lab }}</a>{% else %}{{ edu.lab }}{% endif %}</p>{% endif %}
+                  {% if edu.lab_subtitle %}<p class="card-lab-sub">{{ edu.lab_subtitle }}</p>{% endif %}
+                  {% if edu.notes %}
+                  <p class="card-note">{{ edu.notes }}</p>
+                  {% endif %}
+                </div>
+                <div class="card-aside">
+                  <span class="card-date">{{ edu.year }}</span>
+                  {% if edu.location %}<span class="card-location"><i class="fas fa-location-dot" aria-hidden="true"></i>{{ edu.location }}</span>{% endif %}
+                </div>
               </div>
-              <span class="card-date">{{ edu.year }}</span>
+              {% if edu.examples %}
+              <div class="example-cells">
+                {% for ex in edu.examples %}
+                {% if ex.scroll %}
+                <a class="example-cell tab-link" href="#" data-tab="research" data-scroll="{{ ex.scroll }}">
+                  {% if ex.image %}<img src="{{ ex.image }}" alt="{{ ex.label }}">{% else %}<span class="ex-icon"><i class="fas fa-file-lines" aria-hidden="true"></i></span>{% endif %}
+                  <span class="ex-label"><span class="ex-name">{{ ex.name }}</span>{% if ex.description %} <span class="ex-desc">- {{ ex.description }}</span>{% endif %}</span>
+                  <i class="fas fa-arrow-right ex-ext" aria-hidden="true"></i>
+                </a>
+                {% else %}
+                <a class="example-cell" href="{{ ex.link }}" target="_blank" rel="noopener">
+                  {% if ex.image %}<img src="{{ ex.image }}" alt="{{ ex.label }}">{% else %}<span class="ex-icon"><i class="fas fa-file-lines" aria-hidden="true"></i></span>{% endif %}
+                  <span class="ex-label"><span class="ex-name">{{ ex.name }}</span>{% if ex.description %} <span class="ex-desc">- {{ ex.description }}</span>{% endif %}</span>
+                  <i class="fas fa-arrow-up-right-from-square ex-ext" aria-hidden="true"></i>
+                </a>
+                {% endif %}
+                {% endfor %}
+              </div>
+              {% endif %}
             </div>
           </div>
           {% endfor %}
@@ -281,31 +312,49 @@
           <h2 class="section-title">Experience</h2>
           {% for exp in site.data.experiences %}
           <div class="card card-experience" style="--i: {{ forloop.index0 }};">
-            <div class="card-row">
-              <div>
-                <h3 class="card-title">{{ exp.title }}, {{ exp.company }}</h3>
-                <p class="card-subtitle">{{ exp.team }}</p>
-                {% if exp.advisor %}
-                <p class="card-meta">Advisor: {{ exp.advisor }}</p>
-                {% endif %}
-                {% if exp.notes %}
-                <div class="card-notes">{{ exp.notes | newline_to_br }}</div>
-                {% endif %}
-              </div>
-              <span class="card-date">{{ exp.period }}</span>
-            </div>
-            {% if exp.projects %}
-            <div class="exp-projects">
-              {% for project in exp.projects %}
-              <a href="{{ project.project_link }}" target="_blank" rel="noopener" class="exp-project-item">
-                <img src="{{ project.image }}" alt="{{ project.name }}">
-                {% if project.badge %}
-                <span class="exp-project-badge">{{ project.badge }}</span>
-                {% endif %}
-              </a>
-              {% endfor %}
+            {% if exp.logo or exp.lab_logo %}
+            <div class="card-logo">
+              {% if exp.logo %}<img src="{{ exp.logo }}" alt="{{ exp.company }} logo">{% endif %}
+              {% if exp.lab_logo %}<img src="{{ exp.lab_logo }}" alt="{{ exp.company }} lab logo" class="card-logo-lab">{% endif %}
             </div>
             {% endif %}
+            <div class="card-body">
+              <div class="card-row">
+                <div>
+                  <h3 class="card-title">{{ exp.title }}, {% if exp.company_link %}<a href="{{ exp.company_link }}" target="_blank" rel="noopener">{{ exp.company }}</a>{% else %}{{ exp.company }}{% endif %}</h3>
+                  <p class="card-subtitle">{{ exp.team }}</p>
+                  {% if exp.advisor %}
+                  <p class="card-meta">Advisor: {{ exp.advisor }}</p>
+                  {% endif %}
+                </div>
+                <div class="card-aside">
+                  <span class="card-date">{{ exp.period }}</span>
+                  {% if exp.location %}<span class="card-location"><i class="fas fa-location-dot" aria-hidden="true"></i>{{ exp.location }}</span>{% endif %}
+                </div>
+              </div>
+              {% if exp.notes %}
+              <div class="card-notes">{{ exp.notes | newline_to_br }}</div>
+              {% endif %}
+              {% if exp.examples %}
+              <div class="example-cells">
+                {% for ex in exp.examples %}
+                {% if ex.scroll %}
+                <a class="example-cell tab-link" href="#" data-tab="research" data-scroll="{{ ex.scroll }}">
+                  {% if ex.image %}<img src="{{ ex.image }}" alt="{{ ex.label }}">{% else %}<span class="ex-icon"><i class="fas fa-file-lines" aria-hidden="true"></i></span>{% endif %}
+                  <span class="ex-label"><span class="ex-name">{{ ex.name }}</span>{% if ex.description %} <span class="ex-desc">- {{ ex.description }}</span>{% endif %}</span>
+                  <i class="fas fa-arrow-right ex-ext" aria-hidden="true"></i>
+                </a>
+                {% else %}
+                <a class="example-cell" href="{{ ex.link }}" target="_blank" rel="noopener">
+                  {% if ex.image %}<img src="{{ ex.image }}" alt="{{ ex.label }}">{% else %}<span class="ex-icon"><i class="fas fa-file-lines" aria-hidden="true"></i></span>{% endif %}
+                  <span class="ex-label"><span class="ex-name">{{ ex.name }}</span>{% if ex.description %} <span class="ex-desc">- {{ ex.description }}</span>{% endif %}</span>
+                  <i class="fas fa-arrow-up-right-from-square ex-ext" aria-hidden="true"></i>
+                </a>
+                {% endif %}
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
           </div>
           {% endfor %}
         </section>
@@ -552,6 +601,16 @@
             catch (err) { showToast('Copy failed'); }
             ta.remove();
           }
+        });
+      });
+
+      // Project-overview accordion: expand/collapse the figures panel
+      document.querySelectorAll('.pub-overview-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var panel = document.getElementById(btn.getAttribute('aria-controls'));
+          var isOpen = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+          if (panel) panel.classList.toggle('open', !isOpen);
         });
       });
     })();

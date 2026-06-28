@@ -1,15 +1,41 @@
 - degree: Ph.D. in Computer Science and Engineering
   institution: Seoul National University
+  institution_link: https://en.snu.ac.kr/
+  logo_text: SNU
+  logo: ./assets/img/logo/snu.png
+  lab_logo: ./assets/img/logo/hcs.png
+  lab: Human-Centered Computer Systems Lab
+  lab_link: https://hcs.snu.ac.kr/
+  lab_subtitle: "Mixed Reality and Mobile / Edge Systems"
   location: Seoul, Republic of Korea
   year: 2020 - Present
 
 - degree: M.S. in Computer Science and Engineering
   institution: Seoul National University
+  institution_link: https://en.snu.ac.kr/
+  logo_text: SNU
+  logo: ./assets/img/logo/snu.png
+  lab_logo: ./assets/img/logo/cgip.png
   location: Seoul, Republic of Korea
   year: 2018 - 2020
+  lab: "Computer Graphics & Image Processing Laboratory"
+  lab_subtitle: "Medical Imaging and Computer Vision"
+  examples:
+    - name: M.S. Thesis
+      description: "Automatic registration of dental CBCT and scanned surface via deep pose regression"
+      scroll: automatic-registration
+      image: ./assets/img/tmi20.png
 
 - degree: B.S. in Computer Science in Real-Time Interactive Simulation
   institution: DigiPen Institute of Technology
+  institution_link: https://www.digipen.edu/
+  logo_text: DP
+  logo: ./assets/img/logo/digipen.png
   location: Redmond, Washington, USA
   year: 2012 - 2016
+  examples:
+    - name: Somnus
+      description: "3D perspective-illusion puzzle platformer (E3 College Game Competition Finalist)"
+      link: "https://games.digipen.edu/games/somnus"
+      image: ./assets/img/project/somnus.png
   

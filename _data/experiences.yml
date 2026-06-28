@@ -1,27 +1,38 @@
 - title: Research Intern
   company: Microsoft Research Asia
+  company_link: https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+  logo_text: MSRA
   period: December 2020 – May 2021
-  team: Heterogeneous and Extreme Computing (HEX) group, Beijing, China (Virtual)
+  team: Heterogeneous and Extreme Computing (HEX) group
+  location: Beijing, China (Virtual)
   advisor: Yunxin Liu & Ting Cao
-  notes: "· Deep learning inference acceleration on mobile GPU (<a href='#' class='tab-link' data-tab='research' data-scroll='parallelfusion'>ParallelFusion</a>)"
+  examples:
+    - name: ParallelFusion
+      description: "Deep learning inference acceleration on mobile GPU"
+      scroll: parallelfusion
+      image: ./assets/img/emdl21.png
 
 - title: Software Engineer
   company: Microsoft
+  company_link: https://www.microsoft.com/
+  logo_text: MS
   period: September 2016 – May 2017
-  team: Minecraft Education Edition team, Redmond, Washington, USA
-  notes: "· Developed and maintained Minecraft Education & Minecraft Pocket Edition\n
-          · Developed companion apps (Classroom Mode & Code Connection)\n
-          · Developed visual programming experiences for K-12 students\n(Hour of Code - Minecraft Designer and Code Builder extensions for Scratch X)"
-  projects:
-    - name: "Hour of Code - Minecraft Designer"
+  team: Minecraft Education Edition team
+  location: Redmond, Washington, USA
+  examples:
+    - name: "Minecraft: Education Edition"
+      description: "Development & maintenance (Education & Pocket Edition)"
+      link: "https://education.minecraft.net/"
+      image: ./assets/img/logo/mee.jpeg
+    - name: "Hour of Code: Minecraft Designer"
+      description: "Visual programming activity for K-12 students"
+      link: "https://studio.code.org/s/minecraft/lessons/1/levels/1"
       image: ./assets/img/minecraft-activity-designer.png
-      project_link: https://studio.code.org/s/minecraft/lessons/1/levels/1
-      badge: Hour of Code - Minecraft Designer
-    - name: "Code Connection"
+    - name: Code Connection
+      description: "Companion coding app for Minecraft: Education Edition"
+      link: "https://apps.microsoft.com/detail/9ppfpg2fg2qb"
       image: ./assets/img/minecraft-codeconnection.jpg
-      project_link: https://apps.microsoft.com/detail/9ppfpg2fg2qb
-      badge: Code Connection for M:EE
-    - name: "Classroom Mode"
+    - name: Classroom Mode
+      description: "Classroom management companion app for Minecraft: Education Edition"
+      link: "https://apps.microsoft.com/detail/9p3q3nfk523q"
       image: ./assets/img/minecraft-classroommode.jpg
-      project_link: https://apps.microsoft.com/detail/9p3q3nfk523q
-      badge: Classroom Mode for M:EE

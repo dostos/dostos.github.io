@@ -1,5 +1,25 @@
 - year: 2026
   papers:
+    - title: "SpatialBlend: Relational Reconstruction for Cross-Space Presence in Heterogeneous Spaces"
+      authors: <strong>Jingyu Lee</strong>, Dongho Han, Jinmyeong Kim, Youngki Lee
+      venue_short: UIST
+      provider: ACM
+      venue: Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2026.
+      type: Conference
+      image: ./assets/img/spatialblend.png
+      research_overview:
+        summary: "Mixed-reality telepresence usually assumes people share the same room layout, so it breaks down in differently shaped spaces, where a reach toward a shared object no longer lands in the same place for everyone. SpatialBlend targets cross-space presence: the sense of being together in one shared space while physically apart in heterogeneous rooms. To achieve this, it models interaction relationally, reconstructing each user's motion against the shared targets they act on (objects, surfaces, and one another), so co-located actions stay spatially consistent however different the rooms are."
+        figures:
+          - src: ./assets/img/spatialblend_app.jpg
+            caption: "A walkthrough of the system in use: two users in different rooms move through one shared activity (watering a plant, walking to the chessboard, then playing chess together), each seeing the other as a spatially adapted avatar in their own space."
+      notes: To appear
+      bibtex: "@inproceedings{lee2026spatialblend,
+  title={SpatialBlend: Relational Reconstruction for Cross-Space Presence in Heterogeneous Spaces},
+  author={Lee, Jingyu and Han, Dongho and Kim, Jinmyeong and Lee, Youngki},
+  booktitle={Proceedings of the ACM Symposium on User Interface Software and Technology},
+  year={2026}
+}"
+
     - title: "How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior"
       authors: Hyunsoo Kim, <strong>Jingyu Lee</strong>, Rajesh Balan, Youngki Lee
       venue_short: ISMAR
