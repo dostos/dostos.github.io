@@ -1,0 +1,4 @@
+{
+  "name": "dostos.github.io workspace",
+  "extends": "../../../.devcontainer/templates/workspace-baseline/devcontainer.json"
+}
