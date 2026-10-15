@@ -12,7 +12,8 @@
         figures:
           - src: ./assets/img/spatialblend_app.jpg
             caption: "A walkthrough of the system in use: two users in different rooms move through one shared activity (watering a plant, walking to the chessboard, then playing chess together), each seeing the other as a spatially adapted avatar in their own space."
-      notes: To appear
+      video: https://www.youtube.com/watch?v=3TWBkZOWY_4
+      page: https://github.com/snuhcs/spatialblend
       bibtex: "@inproceedings{lee2026spatialblend,
   title={SpatialBlend: Relational Reconstruction for Cross-Space Presence in Heterogeneous Spaces},
   author={Lee, Jingyu and Han, Dongho and Kim, Jinmyeong and Lee, Youngki},
@@ -22,16 +23,19 @@
 
     - title: "How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior"
       authors: Hyunsoo Kim, <strong>Jingyu Lee</strong>, Rajesh Balan, Youngki Lee
-      venue_short: ISMAR
+      venue_short: TVCG
       provider: IEEE
-      venue: Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2026.
-      type: Conference
+      venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026. Presented at IEEE ISMAR 2026 (TVCG journal track).
+      type: Journal
       image: ./assets/img/ismar26.png
-      notes: To appear
-      bibtex: "@inproceedings{kim2026physicsfidelity,
+      pdf: https://hyunsookim.me/assets/papers/physics-fidelity-tvcg-2026.pdf
+      video: https://youtu.be/iXe4xBFEses
+      research_overview:
+        summary: "A 20-participant study of how rebound-model fidelity and direct familiarization with real balls and surfaces shape perceived plausibility in mixed reality."
+      bibtex: "@article{kim2026physicsfidelity,
   title={How Physics Fidelity Shapes Perceived Plausibility in Mixed Reality: A Case Study of Bounce Behavior},
   author={Kim, Hyunsoo and Lee, Jingyu and Balan, Rajesh and Lee, Youngki},
-  booktitle={Proceedings of the IEEE International Symposium on Mixed and Augmented Reality},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
   year={2026}
 }"
 

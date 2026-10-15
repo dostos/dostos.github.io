@@ -179,6 +179,9 @@
                   {% if pub.code %}
                   <a href="{{ pub.code }}" class="pub-link" target="_blank" rel="noopener" title="Code" aria-label="Code"><i class="fas fa-code" aria-hidden="true"></i></a>
                   {% endif %}
+                  {% if pub.video %}
+                  <a href="{{ pub.video }}" class="pub-link" target="_blank" rel="noopener" title="Video" aria-label="Video"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                  {% endif %}
                   {% if pub.page %}
                   <a href="{{ pub.page }}" class="pub-link" target="_blank" rel="noopener" title="Project Page" aria-label="Project Page"><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
                   {% endif %}
